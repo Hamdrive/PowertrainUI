@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(137, 43, 226, 0.2);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  width: 75%;
+  max-width: 1000px;
+  position: relative;
+  height: 100%;
+}
+
+.wrapper__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.nav__logo > a{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 250px;
+}
+
+.nav__img {
+  width: 56px;
+}
+
+.nav__menu {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav__menu-item {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.75rem;
+  border-radius: 10px;
+}
+
+.nav__menu-item:hover{
+    background-color: rgba(137, 43, 226, 0.4);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.header__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: 900;
+  font-size: 3rem;
+  width: max-content;
+  padding: 0.5rem;
+}
+
+.header__brief {
+  font-weight: 500;
+  font-size: 1.5rem;
+  width: 85%;
+  max-width: 900px;
+  padding: 0.5rem;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.header__brief strong {
+  font-weight: 800;
+}
+
+.header__footer {
+  width: 400px;
+  max-width: 75%;
+  height: max-content;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0.75rem;
+}
+
+.header__footer a {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0.75rem;
+  border-radius: 10px;
+  max-width: 200px;
+  color: white;
+}
+
+.header__footer a:hover{
+    background-color: rgb(119, 1, 230);
+}
+
+.header__btn-getstarted {
+  background-color: blueviolet;
+}
+
+.header__btn-docs {
+  background-color: blueviolet;
+}
+
+.wrapper__footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem;
+}
+
+.wrapper__footer span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
