@@ -1,3 +1,5 @@
+
+/* <---main---> */
 .wrapper {
   width: 75%;
   max-width: 1000px;
@@ -5,6 +7,7 @@
   height: 100%;
 }
 
+/* <---nav---> */
 .wrapper__nav {
   display: flex;
   flex-direction: row;
@@ -44,6 +47,7 @@
   background-color: rgba(137, 43, 226, 0.4);
 }
 
+/* <---footer---> */
 .wrapper__footer {
   position: absolute;
   bottom: 0;

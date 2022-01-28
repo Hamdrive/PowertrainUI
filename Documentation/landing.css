@@ -1,0 +1,80 @@
+@import url("../stylesheets/index.css");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: var(--background-color);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: 900;
+  font-size: 3rem;
+  width: max-content;
+  padding: 0.5rem;
+}
+
+.header__brief {
+  font-weight: 500;
+  font-size: 1.5rem;
+  width: 85%;
+  max-width: 900px;
+  padding: 0.5rem;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.header__brief strong {
+  font-weight: 800;
+}
+
+.header__footer {
+  width: 400px;
+  max-width: 75%;
+  height: max-content;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0.75rem;
+}
+
+.header__footer a {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0.75rem;
+  border-radius: 10px;
+  max-width: 200px;
+  color: white;
+}
+
+.header__footer a:hover{
+    background-color: rgb(119, 1, 230);
+}
+
+.header__btn {
+  background-color: blueviolet;
+}
