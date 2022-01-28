@@ -4,17 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="alert.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0ae1aebe6f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Alert • PowertrainUI</title>
   </head>
   <body>
     <main class="wrapper">
-      <nav class="wrapper__nav-top">
+      <nav class="wrapper__nav">
         <div class="nav__logo">
           <a href="#">
             <h2 class="nav__title">PowertrainUI</h2>
             <img
               class="nav__img"
-              src="./images/icon.png"
+              src="../../images/icon.png"
               alt="PowertrainUI logo"
             />
           </a>
@@ -24,9 +35,64 @@
           <li class="nav__menu-item"><a href="#">Docs</a></li>
         </ul>
       </nav>
-      <section class="main-content">
-        <aside></aside>
-        <article></article>
+      <section class="main-section">
+        <aside class="main-aside">
+          <ul class="nav__aside">
+            <li class="nav__aside-item"><a href="#">Alert</a></li>
+            <li class="nav__aside-item"><a href="#">Avatar</a></li>
+            <li class="nav__aside-item"><a href="#">Badge</a></li>
+            <li class="nav__aside-item"><a href="#">Button</a></li>
+            <li class="nav__aside-item"><a href="#">Card</a></li>
+            <li class="nav__aside-item"><a href="#">Image</a></li>
+            <li class="nav__aside-item"><a href="#">Input</a></li>
+          </ul>
+        </aside>
+        <main class="main-article">
+          <header class="main__header">
+            <h2 class="main__header-title">Alert</h2>
+            <h3 class="main__header-brief">
+              Alert's play a vital role in grabbing the users attention, by
+              displaying a short but important message based on the event
+              occured without interrupting the user.
+            </h3>
+          </header>
+          <hr />
+          <section class="main__section">
+            <h2 class="main__section-title">Basic Alerts</h2>
+            <h3 class="main__section-brief">
+              These alerts take up the width of the content provided, and come
+              with their very own icon.
+            </h3>
+            <div class="example">
+              <div class="alert alert-primary">
+                <i class="fas fa-check-circle"></i>
+                <p>A simple <strong>Primary Alert!</strong> check it out now</p>
+              </div>
+              <div class="alert alert-success">
+                <i class="fas fa-check-circle"></i>
+                <p>A simple <strong>Success Alert!</strong> check it out now</p>
+              </div>
+              <div class="alert alert-warning">
+                <i class="fas fa-check-circle"></i>
+                <p>A simple <strong>Warning Alert!</strong> check it out now</p>
+              </div>
+              <div class="alert alert-error">
+                <i class="fas fa-check-circle"></i>
+                <p>A simple <strong>Error Alert!</strong> check it out now</p>
+              </div>
+              
+            </div>
+            
+          </section>
+          <div class="code-snipper">
+            
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2848%2C136%2C206%2C1%29&t=seti&wt=none&l=javascript&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14.5px&lh=160%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EA%2520simple%2520%253Cstrong%253EPrimary%2520Alert%21%253C%252Fstrong%253E%2520check%2520it%2520out%2520now%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 849px; height: 264px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </main>
       </section>
       <footer class="wrapper__footer">
         <span>Built with ♥ by Hamza</span>
@@ -34,3 +100,4 @@
     </main>
   </body>
 </html>
+
