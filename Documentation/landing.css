@@ -1,5 +1,4 @@
-@import url("../stylesheets/layouts/layout.css");
-@import url("../stylesheets/base/reset.css");
+@import url("../stylesheets/index.css");
 *,
 *::before,
 *::after {
@@ -9,11 +8,12 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--primary-font-family);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(137, 43, 226, 0.2);
+  height: 100%;
+  background-color: var(--background-color);
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
 }
 
 .header__section {
