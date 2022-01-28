@@ -1,0 +1,74 @@
+@import url("../stylesheets/index.css");
+@import url("../components/alert/alert.css");
+
+body {
+    font-family: var(--primary-font-family);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.main-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.main-aside {
+  width: 25%;
+  height: 100%;
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.nav__aside {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.nav__aside-item {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.75rem;
+  border-radius: 10px;
+}
+
+.nav__aside-item:hover {
+  background-color: rgba(137, 43, 226, 0.4);
+}
+
+.main-article {
+  flex-grow: 1;
+  padding: 8px;
+  max-width: 75%;
+}
+
+.main__header,
+.main__section {
+  margin: 24px 0;
+}
+
+.main__header-title,
+.main__section-title {
+  margin: 8px 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.main__header-brief,
+.main__section-brief {
+  margin: 16px 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.example {
+  border: 1px solid black;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 32px;
+}
