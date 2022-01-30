@@ -11,6 +11,8 @@
   --primary-font-family: "Montserrat", sans-serif;
   /* --font-size-sm:;
   --font-size-lg:; */
+
+  /* Alert colors */
   --alert-primary-bkg: #93c5fd;
   --alert-primary-bkg-hover: #bfdbfe;
   --alert-primary-color: #1e40af;
@@ -27,4 +29,36 @@
   --alert-error-bkg-hover: #fecaca;
   --alert-error-color: #991b1b;
   --alert-error-icon: #7f1d1d;
+
+  /* border radius */
+  --radius-small: 2px;
+  --radius: 4px;
+  --radius-large: 6px;
+  --radius-rounded: 9999px;
+
+  /* font weight */
+  --weight-light: 300;
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* sizing */
+  --size-16: 2.75rem;
+  --size-15: 2.5rem;
+  --size-14: 2.25rem;
+  --size-13: 2rem;
+  --size-12: 1.75rem;
+  --size-11: 1.5rem;
+  --size-10: 1.25rem;
+  --size-9: 1rem;
+  --size-8: 0.875rem;
+  --size-7: 0.75rem;
+  --size-6: 0.625rem;
+  --size-5: 0.5rem;
+  --size-4: 0.375rem;
+  --size-3: 0.25rem;
+  --size-2: 0.125rem;
+  --size-1: 1px;
+  --size-0: 0;
 }
