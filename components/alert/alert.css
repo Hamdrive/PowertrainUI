@@ -1,0 +1,92 @@
+/* Only for Visualization of Example */
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.example {
+  width: 50%;
+}
+/* Only for Visualization of Example */
+
+/* Alert Component CSS */
+.alert {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 600;
+  height: 3.5rem;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.alert i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.alert--link {
+  text-decoration: underline;
+}
+
+.alert--primary {
+  background-color: var(--alert-primary-bkg); /*300*/
+  color: var(--alert-primary-color); /*800*/
+}
+
+.alert--primary i {
+  color: var(--alert-primary-icon); /*900*/
+}
+
+.alert--primary:hover {
+  cursor: pointer;
+  background-color: var(--alert-primary-bkg-hover);
+  transition: background-color 0.1s ease-in-out;
+}
+
+.alert--success {
+  background-color: var(--alert-success-bkg);
+  color: var(--alert-success-color);
+}
+
+.alert--success i {
+  color: var(--alert-success-icon);
+}
+
+.alert--success:hover {
+  cursor: pointer;
+  background-color: var(--alert-success-bkg-hover);
+  transition: background-color 0.1s ease-in-out;
+}
+
+.alert--warning {
+  background-color: var(--alert-warning-bkg);
+  color: var(--alert-warning-color);
+}
+
+.alert--warning i {
+  color: var(--alert-warning-icon);
+}
+
+.alert--warning:hover {
+  cursor: pointer;
+  background-color: var(--alert-warning-bkg-hover);
+  transition: background-color 0.1s ease-in-out;
+}
+
+.alert--error {
+  background-color: var(--alert-error-bkg);
+  color: var(--alert-error-color);
+}
+
+.alert--error i {
+  color: var(--alert-error-icon);
+}
+
+.alert--error:hover {
+  cursor: pointer;
+  background-color: var(--alert-error-bkg-hover);
+  transition: background-color 0.1s ease-in-out;
+}
