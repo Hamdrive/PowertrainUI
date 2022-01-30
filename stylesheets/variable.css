@@ -3,7 +3,7 @@
   --primary-dark-color: ;
   --primary-light-color: ;
   --secondary-color: ; */
-  --background-color: rgba(137, 43, 226, 0.2) ;
+  --background-color: rgba(137, 43, 226, 0.2);
   /* --text-primary: ;
   --text-black-light:;
   --text-black-hover: ;
@@ -11,8 +11,6 @@
   --primary-font-family: "Montserrat", sans-serif;
   /* --font-size-sm:;
   --font-size-lg:; */
-
-  /* Alert colors */
   --alert-primary-bkg: #93c5fd;
   --alert-primary-bkg-hover: #bfdbfe;
   --alert-primary-color: #1e40af;
@@ -30,6 +28,9 @@
   --alert-error-color: #991b1b;
   --alert-error-icon: #7f1d1d;
 
+  /* Avatar colors */
+  --avatar-icon-bkg: #fbbf24;
+
   /* border radius */
   --radius-small: 2px;
   --radius: 4px;
@@ -44,6 +45,15 @@
   --weight-bold: 700;
 
   /* sizing */
+  --size-25: 5rem;
+  --size-24: 4.75rem;
+  --size-23: 4.5rem;
+  --size-22: 4.25rem;
+  --size-21: 4rem;
+  --size-20: 3.75rem;
+  --size-19: 3.5rem;
+  --size-18: 3.25rem;
+  --size-17: 3rem;
   --size-16: 2.75rem;
   --size-15: 2.5rem;
   --size-14: 2.25rem;

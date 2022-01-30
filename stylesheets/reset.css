@@ -53,6 +53,14 @@ h1 {
   font-size: 2rem;
 }
 
+img, picture, video, canvas,iframe, svg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+
+}
+
 /* <---fa-icons---> */
 [class^="f"] {
   font-size: 30px;

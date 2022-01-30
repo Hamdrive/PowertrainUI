@@ -1,0 +1,64 @@
+/* Avatar CSS */
+.avatar {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--avatar-icon-bkg);
+  border-radius: var(--radius-rounded);
+  font-weight: var(--weight-medium);
+  overflow: hidden;
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.avatar.square {
+  border-radius: 0;
+}
+.avatar.corner {
+  border-radius: var(--radius-large);
+}
+
+.sm {
+  width: var(--size-13);
+  height: var(--size-13);
+  font-size: var(--size-7);
+}
+
+.sm .icon {
+  font-size: var(--size-9);
+}
+
+.md {
+  width: var(--size-17);
+  height: var(--size-17);
+  font-size: var(--size-9);
+}
+
+.md .icon {
+  font-size: var(--size-11);
+}
+
+.lg {
+  width: var(--size-21);
+  height: var(--size-21);
+  font-size: var(--size-11);
+}
+
+.lg .icon {
+  font-size: var(--size-13);
+}
+
+.xl {
+  width: var(--size-25);
+  height: var(--size-25);
+  font-size: var(--size-13);
+}
+
+.xl .icon {
+  font-size: var(--size-15);
+}
