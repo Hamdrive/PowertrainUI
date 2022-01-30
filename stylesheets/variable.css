@@ -12,15 +12,19 @@
   /* --font-size-sm:;
   --font-size-lg:; */
   --alert-primary-bkg: #93c5fd;
+  --alert-primary-bkg-hover: #bfdbfe;
   --alert-primary-color: #1e40af;
   --alert-primary-icon: #1e3a8a;
   --alert-success-bkg: #6eeb7b;
+  --alert-success-bkg-hover: #a7f3d0;
   --alert-success-color: #065f46;
   --alert-success-icon: #064e3b;
   --alert-warning-bkg: #fcd34d;
+  --alert-warning-bkg-hover: #fde6ba;
   --alert-warning-color: #92400e;
   --alert-warning-icon: #78350f;
   --alert-error-bkg: #fca5a5;
+  --alert-error-bkg-hover: #fecaca;
   --alert-error-color: #991b1b;
   --alert-error-icon: #7f1d1d;
 }

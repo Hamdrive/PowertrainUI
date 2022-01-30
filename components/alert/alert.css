@@ -1,93 +1,92 @@
 /* Only for Visualization of Example */
-body{
+body {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.example{
+.example {
   width: 50%;
 }
 /* Only for Visualization of Example */
 
-
 /* Alert Component CSS */
-.alert{
+.alert {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   font-weight: 600;
-  height: 50px;
+  height: 3.5rem;
   padding: 12px;
   border-radius: 8px;
   margin: 1rem 0;
 }
 
-.alert i{
+.alert i {
   font-size: 1.5rem;
   margin-right: 1rem;
 }
 
-.alert--link{
+.alert--link {
   text-decoration: underline;
 }
 
-.alert--primary{
+.alert--primary {
   background-color: var(--alert-primary-bkg); /*300*/
   color: var(--alert-primary-color); /*800*/
 }
 
-.alert--primary i{
+.alert--primary i {
   color: var(--alert-primary-icon); /*900*/
 }
 
-.alert--primary:hover{
+.alert--primary:hover {
   cursor: pointer;
-  opacity: 0.85;
-  transition: 0.1s ease-in-out;
+  background-color: var(--alert-primary-bkg-hover);
+  transition: background-color 0.1s ease-in-out;
 }
 
-.alert--success{
+.alert--success {
   background-color: var(--alert-success-bkg);
   color: var(--alert-success-color);
 }
 
-.alert--success i{
+.alert--success i {
   color: var(--alert-success-icon);
 }
 
-.alert--success:hover{
+.alert--success:hover {
   cursor: pointer;
-  opacity: 0.85;
-  transition: 0.1s ease-in-out;
+  background-color: var(--alert-success-bkg-hover);
+  transition: background-color 0.1s ease-in-out;
 }
 
-.alert--warning{
+.alert--warning {
   background-color: var(--alert-warning-bkg);
   color: var(--alert-warning-color);
 }
 
-.alert--warning i{
+.alert--warning i {
   color: var(--alert-warning-icon);
 }
 
-.alert--warning:hover{
+.alert--warning:hover {
   cursor: pointer;
-  opacity: 0.85;
-  transition: 0.1s ease-in-out;
+  background-color: var(--alert-warning-bkg-hover);
+  transition: background-color 0.1s ease-in-out;
 }
 
-.alert--error{
+.alert--error {
   background-color: var(--alert-error-bkg);
   color: var(--alert-error-color);
 }
 
-.alert--error i{
+.alert--error i {
   color: var(--alert-error-icon);
 }
 
-.alert--error:hover{
+.alert--error:hover {
   cursor: pointer;
-  opacity: 0.85;
-  transition: 0.1s ease-in-out;
+  background-color: var(--alert-error-bkg-hover);
+  transition: background-color 0.1s ease-in-out;
 }
