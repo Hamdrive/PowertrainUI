@@ -1,3 +1,17 @@
+/* Only for Visualization of Example */
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.example{
+  width: 50%;
+}
+/* Only for Visualization of Example */
+
+
+/* Alert Component CSS */
 .alert{
   display: flex;
   justify-content: flex-start;
@@ -14,38 +28,66 @@
   margin-right: 1rem;
 }
 
-.alert-primary{
-  background-color: #93c5fd; /*300*/
-  color: #1e40af; /*800*/
+.alert--link{
+  text-decoration: underline;
 }
 
-.alert-primary i{
-  color: #1e3a8a; /*900*/
+.alert--primary{
+  background-color: var(--alert-primary-bkg); /*300*/
+  color: var(--alert-primary-color); /*800*/
 }
 
-.alert-success{
-  background-color: #6eeb7b;
-  color: #065f46;
+.alert--primary i{
+  color: var(--alert-primary-icon); /*900*/
 }
 
-.alert-success i{
-  color: #064e3b;
+.alert--primary:hover{
+  cursor: pointer;
+  opacity: 0.85;
+  transition: 0.1s ease-in-out;
 }
 
-.alert-warning{
-  background-color: #fcd34d;
-  color: #92400e;
+.alert--success{
+  background-color: var(--alert-success-bkg);
+  color: var(--alert-success-color);
 }
 
-.alert-warning i{
-  color: #78350f;
+.alert--success i{
+  color: var(--alert-success-icon);
 }
 
-.alert-error{
-  background-color: #fca5a5;
-  color: #991b1b;
+.alert--success:hover{
+  cursor: pointer;
+  opacity: 0.85;
+  transition: 0.1s ease-in-out;
 }
 
-.alert-error i{
-  color: #7f1d1d;
+.alert--warning{
+  background-color: var(--alert-warning-bkg);
+  color: var(--alert-warning-color);
+}
+
+.alert--warning i{
+  color: var(--alert-warning-icon);
+}
+
+.alert--warning:hover{
+  cursor: pointer;
+  opacity: 0.85;
+  transition: 0.1s ease-in-out;
+}
+
+.alert--error{
+  background-color: var(--alert-error-bkg);
+  color: var(--alert-error-color);
+}
+
+.alert--error i{
+  color: var(--alert-error-icon);
+}
+
+.alert--error:hover{
+  cursor: pointer;
+  opacity: 0.85;
+  transition: 0.1s ease-in-out;
 }
