@@ -1,0 +1,114 @@
+/* Button CSS */
+.btn {
+  text-transform: uppercase;
+  font-weight: var(--weight-semibold);
+  font-family: inherit;
+  min-width: var(--size-17);
+  border-radius: var(--radius-extra-large);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+}
+
+.btn.outline {
+  background-color: transparent;
+  color: var(--primary-color);
+  outline: var(--size-2) solid var(--primary-color);
+}
+
+.btn.ghost {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.btn.ghost:hover {
+  background-color: var(--primary-light-color);
+  color: var(--color-white);
+}
+
+.btn.link:hover {
+  text-decoration: underline;
+}
+
+.btn-sm {
+  font-size: var(--size-8);
+  padding: var(--size-7);
+}
+
+.btn-md {
+  font-size: var(--size-9);
+  padding: var(--size-9);
+}
+
+.btn-lg {
+  font-size: var(--size-10);
+  padding: var(--size-9);
+}
+
+.btn-xl {
+  font-size: var(--size-11);
+  padding: var(--size-10);
+}
+
+.btn-def {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+}
+
+.btn-def:hover {
+  background-color: var(--primary-dark-color);
+}
+
+.btn-prm {
+  background-color: var(--btn-primary-color);
+  color: var(--color-white);
+}
+
+.btn-prm:hover {
+  background-color: var(--btn-primary-dark-color);
+}
+
+.btn-sec {
+  background-color: var(--btn-secondary-color);
+  color: var(-color-black);
+}
+
+.btn-sec:hover {
+  background-color: var(--btn-secondary-dark-color);
+}
+
+.btn-suc {
+  background-color: var(--btn-success-color);
+  color: var(--color-white);
+}
+
+.btn-suc:hover {
+  background-color: var(--btn-success-dark-color);
+}
+
+.btn-err {
+  background-color: var(--btn-error-color);
+  color: var(--color-white);
+}
+
+.btn-err:hover {
+  background-color: var(--btn-error-dark-color);
+}
+
+.btn-sec[disabled] {
+  cursor: not-allowed;
+}
+
+.btn-fab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--size-18);
+  height: var(--size-18);
+  font-size: var(--size-15);
+  border-radius: var(--radius-rounded);
+  padding: 0;
+}

@@ -1,16 +1,16 @@
 :root {
-  /* --primary-color: ;
-  --primary-dark-color: ;
-  --primary-light-color: ;
-  --secondary-color: ; */
+  --primary-color: #5b21b6;
+  --primary-dark-color: #4c1d95;
+  --primary-light-color: #7c3aed;
+  /* --secondary-color: ; */
   --background-color: rgba(137, 43, 226, 0.2);
   /* --text-primary: ;
-  --text-black-light:;
-  --text-black-hover: ;
-  --text-hover-background:; */
+ --text-black-light:;
+ --text-black-hover: ;
+ --text-hover-background:; */
   --primary-font-family: "Montserrat", sans-serif;
-  /* --font-size-sm:;
-  --font-size-lg:; */
+  --color-white: white;
+  --color-black: black;
 
   /* Alert colors */
   --alert-primary-bkg: #93c5fd;
@@ -33,10 +33,21 @@
   /* Avatar colors */
   --avatar-icon-bkg: #fbbf24;
 
+  /* Button colors */
+  --btn-primary-color: #2563eb;
+  --btn-primary-dark-color: #1d4ed8;
+  --btn-secondary-color: #fff6ea;
+  --btn-secondary-dark-color: #c4c4c4;
+  --btn-success-color: #059669;
+  --btn-success-dark-color: #047857;
+  --btn-error-color: #dc2626;
+  --btn-error-dark-color: #bc1c1c;
+
   /* border radius */
   --radius-small: 2px;
   --radius: 4px;
   --radius-large: 6px;
+  --radius-extra-large: 10px;
   --radius-rounded: 9999px;
 
   /* font weight */
