@@ -7,6 +7,8 @@
   border-radius: var(--radius-extra-large);
   cursor: pointer;
   transition: all 0.1s ease-in-out;
+  position: relative;
+  white-space: nowrap;
 }
 
 .btn:hover {
@@ -35,22 +37,22 @@
 
 .btn-sm {
   font-size: var(--size-8);
-  padding: var(--size-7);
+  padding: var(--size-5) var(--size-7);
 }
 
 .btn-md {
   font-size: var(--size-9);
-  padding: var(--size-9);
+  padding: var(--size-7) var(--size-9);
 }
 
 .btn-lg {
   font-size: var(--size-10);
-  padding: var(--size-9);
+  padding: var(--size-7) var(--size-9);
 }
 
 .btn-xl {
   font-size: var(--size-11);
-  padding: var(--size-10);
+  padding: var(--size-8) var(--size-10);
 }
 
 .btn-def {
@@ -98,8 +100,9 @@
   background-color: var(--btn-error-dark-color);
 }
 
-.btn-sec[disabled] {
+.btn[disabled] {
   cursor: not-allowed;
+  opacity: 0.65;
 }
 
 .btn-fab {
@@ -111,4 +114,12 @@
   font-size: var(--size-15);
   border-radius: var(--radius-rounded);
   padding: 0;
+}
+
+.btn i {
+  margin-right: var(--size-5);
+}
+
+.btn-fab i {
+  margin-right: 0;
 }
