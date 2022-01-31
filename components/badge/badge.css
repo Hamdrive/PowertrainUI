@@ -1,17 +1,16 @@
 /* parent selector */
-
 .badge {
   position: relative;
 }
 
 /* Icon badges */
 
-.icon {
-  font-size: var(--size-12);
+.badge-icon {
+  font-size: var(--size-13);
   cursor: pointer;
 }
 
-.unit {
+.badge-count {
   position: absolute;
   border-radius: var(--radius-rounded);
   min-width: var(--size-12);
@@ -22,18 +21,6 @@
   padding: var(--size-3);
   font-size: var(--size-9);
   font-weight: var(--weight-medium);
-}
-
-.top-right {
-  top: 0;
-  right: 0;
-  transform: translate(50%, -50%);
-}
-
-.top-left {
-  top: 0;
-  left: 0;
-  transform: translate(-50%, -50%);
 }
 
 .badge-blue {
@@ -57,31 +44,26 @@
 }
 
 /* Avatar badge dot */
-.badge-dot-xl {
-  width: var(--size-10);
-  height: var(--size-10);
+.badge-dot-pos {
   border-radius: var(--radius-rounded);
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.badge-dot-xl {
+  width: var(--size-10);
+  height: var(--size-10);
 }
 
 .badge-dot-lg {
   width: var(--size-9);
   height: var(--size-9);
-  border-radius: var(--radius-rounded);
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 .badge-dot-md {
   width: var(--size-7);
   height: var(--size-7);
-  border-radius: var(--radius-rounded);
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 .dot-green {
