@@ -7,6 +7,7 @@
   border-radius: var(--radius-rounded);
   font-weight: var(--weight-medium);
   overflow: hidden;
+  border: var(--size-2) solid var(--color-grey);
 }
 
 /* Round avatars */
