@@ -67,7 +67,7 @@ svg {
 
 /* <---fa-icons---> */
 [class^="f"] {
-  font-size: 30px;
+  font-size: var(--size-10);
   color: inherit;
 }
 
