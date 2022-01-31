@@ -11,6 +11,8 @@
   --primary-font-family: "Montserrat", sans-serif;
   /* --font-size-sm:;
   --font-size-lg:; */
+
+  /* Alert colors */
   --alert-primary-bkg: #93c5fd;
   --alert-primary-bkg-hover: #bfdbfe;
   --alert-primary-color: #1e40af;
