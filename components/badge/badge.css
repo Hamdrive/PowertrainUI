@@ -15,9 +15,6 @@
   border-radius: var(--radius-rounded);
   min-width: var(--size-12);
   height: var(--size-12);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: var(--size-3);
   font-size: var(--size-9);
   font-weight: var(--weight-medium);

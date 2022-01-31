@@ -1,3 +1,11 @@
+/* Flexbox */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Postioning */
 .top-right {
   top: 0;
   right: 0;
