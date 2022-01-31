@@ -1,0 +1,19 @@
+/* Flexbox */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Postioning */
+.top-right {
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,93 @@
+/* parent selector */
+.badge {
+  position: relative;
+}
+
+/* Icon badges */
+
+.badge-icon {
+  font-size: var(--size-13);
+  cursor: pointer;
+}
+
+.badge-count {
+  position: absolute;
+  border-radius: var(--radius-rounded);
+  min-width: var(--size-12);
+  height: var(--size-12);
+  padding: var(--size-3);
+  font-size: var(--size-9);
+  font-weight: var(--weight-medium);
+}
+
+.badge-blue {
+  background-color: var(--badge-blue);
+  color: var(--color-white);
+}
+
+.badge-purple {
+  background-color: var(--badge-purple);
+  color: var(--color-white);
+}
+
+.badge-yellow {
+  background-color: var(--badge-yellow);
+  color: var(--color-black);
+}
+
+.badge-red {
+  background-color: var(--badge-red);
+  color: var(--color-white);
+}
+
+/* Avatar badge dot */
+.badge-dot-pos {
+  border-radius: var(--radius-rounded);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.badge-dot-xl {
+  width: var(--size-10);
+  height: var(--size-10);
+}
+
+.badge-dot-lg {
+  width: var(--size-9);
+  height: var(--size-9);
+}
+
+.badge-dot-md {
+  width: var(--size-7);
+  height: var(--size-7);
+}
+
+.dot-green {
+  background-color: var(--badge-green);
+}
+
+.dot-yellow {
+  background-color: var(--badge-yellow);
+}
+
+.dot-red {
+  background-color: var(--badge-red);
+}
+
+/* Avatar badge border */
+.badge-bd {
+  border: var(--size-3) solid;
+}
+
+.bd-green {
+  color: var(--badge-green);
+}
+
+.bd-yellow {
+  color: var(--badge-yellow);
+}
+
+.bd-red {
+  color: var(--badge-red);
+}

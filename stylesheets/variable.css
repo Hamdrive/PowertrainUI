@@ -11,6 +11,7 @@
   --primary-font-family: "Montserrat", sans-serif;
   --color-white: white;
   --color-black: black;
+  --color-grey: grey;
 
   /* Alert colors */
   --alert-primary-bkg: #93c5fd;
@@ -42,6 +43,13 @@
   --btn-success-dark-color: #047857;
   --btn-error-color: #dc2626;
   --btn-error-dark-color: #bc1c1c;
+
+  /* Badge colors */
+  --badge-green: #10b981;
+  --badge-yellow: #f59e0b;
+  --badge-red: #ef4444;
+  --badge-blue: #3b82f6;
+  --badge-purple: #8b5cf6;
 
   /* border radius */
   --radius-small: 2px;
