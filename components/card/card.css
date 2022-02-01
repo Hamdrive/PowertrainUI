@@ -1,0 +1,89 @@
+.card {
+  position: relative;
+  background-color: var(--color-white);
+  width: 350px;
+  height: max-content;
+  border-radius: var(--radius-extra-large);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+}
+
+.card__img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.card-badge {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  padding: var(--size-3);
+  transition: background-color 0.1s ease-in-out;
+}
+
+.card-badge:hover {
+  background-color: var(--primary-light-color);
+}
+
+.card-badge .icon {
+  padding: var(--size-5) var(--size-9);
+  font-size: var(--size-11);
+}
+
+.card-badge-left {
+  border-bottom-right-radius: var(--radius-extra-large);
+}
+
+.card-badge-right {
+  border-bottom-left-radius: var(--radius-extra-large);
+}
+
+.card-badge-ver {
+  font-size: var(--size-11);
+}
+
+.card-badge-hor {
+  font-size: var(--size-7);
+}
+
+.brief-overlay {
+  top: 40%;
+  color: var(--color-white);
+}
+
+.card-title {
+  padding: var(--size-5) var(--size-9);
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.card-brief {
+  padding: var(--size-5) var(--size-9);
+  font-weight: var(--weight-medium);
+}
+
+.card-footer {
+  padding: var(--size-5) 0;
+}
+
+.cta-btns,
+.card-icons {
+  display: flex;
+}
+
+.cta-icons {
+  width: var(--size-15);
+  height: var(--size-15);
+  border-radius: var(--radius-rounded);
+  cursor: pointer;
+  color: var(---color-black);
+  transition: background-color 0.1s ease-in-out;
+}
+
+.cta-icons:hover {
+  background-color: var(--color-grey);
+}
+
+.cta-icons:hover [class^="f"] {
+  color: var(--color-white);
+}
