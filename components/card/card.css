@@ -8,12 +8,6 @@
   overflow: hidden;
 }
 
-.card__img {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-
 .card-badge {
   background-color: var(--primary-color);
   color: var(--color-white);
