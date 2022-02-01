@@ -1,0 +1,81 @@
+.input-group {
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: var(--size-5);
+}
+
+.input-mandatory {
+  color: var(--input-fail);
+  font-size: inherit;
+}
+
+.input-sm {
+  font-size: var(--size-9);
+  padding: var(--size-3) var(--size-5);
+}
+
+.input-md {
+  font-size: var(--size-10);
+  padding: var(--size-5) var(--size-6);
+}
+
+.input-lg {
+  font-size: var(--size-11);
+  padding: var(--size-6) var(--size-6);
+}
+
+.input-round {
+  border-radius: var(--radius-rounded);
+}
+
+.input-corner {
+  border-radius: var(--radius-large);
+}
+
+.active:focus {
+  border-color: var(--color-black);
+  background-color: var(--input-active);
+}
+
+.input-validation {
+  display: inline-flex;
+  align-items: center;
+  font-weight: var(--weight-semibold);
+  margin-top: var(--size-2);
+}
+
+.input-validation-sm {
+  font-size: var(--size-7);
+}
+
+.input-validation-md {
+  font-size: var(--size-8);
+}
+
+.input-validation-lg {
+  font-size: var(--size-9);
+}
+
+.input-validation-success {
+  color: var(--input-success);
+}
+
+.input-validation-fail {
+  color: var(--input-fail);
+}
+
+.input-success {
+  border-color: var(--input-success);
+}
+
+.input-fail {
+  border-color: var(--input-fail);
+}
+
+.input-validation .validation-icon {
+  font-size: inherit;
+  margin-right: var(--size-3);
+}
