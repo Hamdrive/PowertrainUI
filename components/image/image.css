@@ -1,0 +1,18 @@
+.square,
+.round,
+.corner {
+  width: var(--size-45);
+  height: var(--size-45);
+}
+
+.round {
+  border-radius: var(--radius-extra-large);
+}
+
+.corner {
+  border-radius: var(--radius-rounded);
+}
+
+.dynamic{
+    max-width: 62.5rem;
+}
