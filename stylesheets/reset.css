@@ -39,18 +39,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 3.5rem 0 2rem 0;
+h6,
+p {
   font-family: var(--primary-font-family);
 }
 
 p {
-  margin: 1.5rem 0;
-  font-size: 1.1rem;
-}
-
-h1 {
-  font-size: 2rem;
+  font-weight: var(--weight-medium);
 }
 
 img,
@@ -65,7 +60,7 @@ svg {
   display: block;
 }
 
-input{
+input {
   width: 100%;
   outline: none;
   border: none;
@@ -75,6 +70,7 @@ input{
 [class^="f"] {
   font-size: var(--size-10);
   color: inherit;
+  cursor: pointer;
 }
 
 /* @media screen and (min-width: 600px) {
