@@ -5,6 +5,12 @@
   align-items: center;
 }
 
+.flex-start{          
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 /* Postioning */
 .top-right {
   top: 0;
@@ -16,4 +22,9 @@
   top: 0;
   left: 0;
   transform: translate(-50%, -50%);
+}
+
+/* Border */
+.border-2{
+  border: var(--size-2) solid var(--color-grey);
 }

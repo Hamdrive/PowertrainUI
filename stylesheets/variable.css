@@ -51,6 +51,11 @@
   --badge-blue: #3b82f6;
   --badge-purple: #8b5cf6;
 
+  /* Input colors */
+  --input-active: #e6e6e6;
+  --input-success: #047857;
+  --input-fail: #bc1c1c;
+
   /* border radius */
   --radius-small: 2px;
   --radius: 4px;
