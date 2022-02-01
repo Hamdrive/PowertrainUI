@@ -75,7 +75,7 @@
 
 .btn-sec {
   background-color: var(--btn-secondary-color);
-  color: var(-color-black);
+  color: var(--color-black);
 }
 
 .btn-sec:hover {
