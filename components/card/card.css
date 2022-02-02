@@ -1,8 +1,8 @@
 .card {
   position: relative;
   background-color: var(--color-white);
-  width: 350px;
-  height: max-content;
+  width: 22rem;
+  max-height: 30rem;
   border-radius: var(--radius-extra-large);
   box-shadow: var(--box-shadow);
   overflow: hidden;
@@ -54,10 +54,14 @@
 .card-brief {
   padding: var(--size-5) var(--size-9);
   font-weight: var(--weight-medium);
+  max-height: 10rem;
+  overflow-y: scroll;
+  white-space: normal;
 }
 
 .card-footer {
   padding: var(--size-5) 0;
+  background-color: var(--color-white);
 }
 
 .cta-btns,
