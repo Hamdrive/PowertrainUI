@@ -1,18 +1,18 @@
-.square,
-.round,
-.corner {
+.img-square,
+.img-round,
+.img-corner {
   width: var(--size-45);
   height: var(--size-45);
 }
 
-.round {
+.img-round {
   border-radius: var(--radius-extra-large);
 }
 
-.corner {
+.img-corner {
   border-radius: var(--radius-rounded);
 }
 
-.dynamic{
+.img-dynamic{
     max-width: 62.5rem;
 }
