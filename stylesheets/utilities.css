@@ -61,6 +61,12 @@
   right: 0;
 }
 
+.bottom-full {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 /* Width */
 .w-30 {
   width: 30%;
