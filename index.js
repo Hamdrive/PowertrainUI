@@ -6,7 +6,7 @@ const menuBtns = document.querySelector(".menu");
 
 hamburger.addEventListener("click", () => {
   console.log("click");
-  mobNav.style.width = "60vw";
+  mobNav.style.width = "50vw";
 });
 
 closeMobNav.addEventListener("click", () => {
