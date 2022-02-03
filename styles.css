@@ -1,4 +1,4 @@
-@import url("./variable.css");
-@import url("./reset.css");
-@import url("./utilities.css");
+@import url("./stylesheets/variable.css");
+@import url("./stylesheets/reset.css");
+@import url("./stylesheets/utilities.css");
 @import url("./components/component.css");
