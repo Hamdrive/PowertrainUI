@@ -25,8 +25,9 @@
 
 .main-section code {
   font-size: var(--size-10);
-  font-weight: var(--weight-semibold);
+  font-weight: var(--weight-normal);
   color: var(--primary-dark-color);
+  margin: var(--size-11) auto 0;
 }
 
 @media screen and (max-width: 769px) {

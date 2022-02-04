@@ -92,7 +92,7 @@ input {
 
 ::-webkit-scrollbar {
   width: 5px;
-  border-radius: 9999px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
