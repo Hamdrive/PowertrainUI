@@ -1,0 +1,32 @@
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--secondary-light-color);
+}
+
+.footer-social {
+  font-size: var(--size-11);
+  font-weight: var(--weight-semibold);
+}
+
+.footer-outro, .footer-brief {
+  font-size: var(--size-9);
+}
+
+@media screen and (min-width: 769px) {
+    .footer-info,
+    .footer-brief {
+      margin-left: var(--size-21);
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    .footer-info,
+    .footer-brief {
+      margin-left: 0;
+    }
+  
+    .footer-social-icons {
+      gap: 1rem;
+    }
+  }

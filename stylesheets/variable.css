@@ -2,14 +2,9 @@
   --primary-color: #5b21b6;
   --primary-dark-color: #4c1d95;
   --primary-light-color: #7c3aed;
+  --primary-extra-light-color: rgba(124, 58, 237, 0.4);
   --secondary-color: #455a64;
   --secondary-light-color: #fff;
-  /* --secondary-color: ; */
-  /* --background-color: rgba(137, 43, 226, 0.2); */
-  /* --text-primary: ;
- --text-black-light:;
- --text-black-hover: ;
- --text-hover-background:; */
   --primary-font-family: "Montserrat", sans-serif;
   --color-white: white;
   --color-black: black;
