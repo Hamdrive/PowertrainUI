@@ -1,0 +1,77 @@
+@import url("../../styles.css");
+@import url("../../stylesheets/navbar.css");
+@import url("../../stylesheets/footer.css");
+
+.content-title {
+  font-size: var(--size-18);
+}
+
+.content-brief {
+  font-size: var(--size-10);
+}
+
+.hero img {
+  width: 100%;
+}
+
+.start-btn{
+  margin-top: var(--size-13);
+}
+
+@media screen and (min-width: 769px) {
+
+  .hero {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+
+  .active {
+    color: var(--color-white);
+    background-color: var(--primary-light-color);
+    outline: none;
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .content {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .footer-info,
+  .footer-brief {
+    margin-left: 0;
+  }
+
+  .footer-social-icons {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    gap: 1rem;
+  }
+
+  .content-title {
+    font-size: var(--size-14);
+  }
+
+  .content-brief {
+    font-size: var(--size-9);
+  }
+
+  .hero {
+    width: 75%;
+  }
+}
