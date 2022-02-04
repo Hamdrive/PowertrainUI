@@ -35,3 +35,10 @@
     padding: 0 var(--size-13);
   }
 }
+
+@media screen and (max-width: 480px) {
+  .content-doc {
+    text-align: center;
+    padding: 0;
+  }
+}
