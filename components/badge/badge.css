@@ -41,24 +41,47 @@
 }
 
 /* Avatar badge dot */
-.badge-dot-pos {
+.badge-dot-top-right {
   border-radius: var(--radius-rounded);
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 3%;
+  right: 0%;
+}
+.badge-dot-top-left {
+  border-radius: var(--radius-rounded);
+  position: absolute;
+  top: 3%;
+  left: 2%;
+}
+.badge-dot-bottom-right {
+  border-radius: var(--radius-rounded);
+  position: absolute;
+  bottom: 5%;
+  right: 8%;
+}
+.badge-dot-bottom-left {
+  border-radius: var(--radius-rounded);
+  position: absolute;
+  bottom: 5%;
+  left: 8%;
 }
 
 .badge-dot-xl {
+  width: var(--size-11);
+  height: var(--size-11);
+}
+
+.badge-dot-lg {
   width: var(--size-10);
   height: var(--size-10);
 }
 
-.badge-dot-lg {
+.badge-dot-md {
   width: var(--size-9);
   height: var(--size-9);
 }
 
-.badge-dot-md {
+.badge-dot-sm {
   width: var(--size-7);
   height: var(--size-7);
 }
