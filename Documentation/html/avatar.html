@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/alert.css" />
+    <link rel="stylesheet" href="../css/avatar.css" />
     <link
       rel="shortcut icon"
       href="../../assets/favicon.ico"
@@ -41,9 +41,7 @@
                 >
               </li>
               <li class="menu-list">
-                <a
-                  href="./alert.html"
-                  class="menu-item btn btn-md mx-1 active"
+                <a href="./alert.html" class="menu-item btn btn-md mx-1 active"
                   >Docs</a
                 >
               </li>
@@ -79,90 +77,94 @@
                 <li class="my-1 aside-item">
                   <a class="h4" href="#">Avatar</a>
                 </li>
-                <li class="my-1 aside-item"><a class="h4" href="#">Badge</a></li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="#">Badge</a>
+                </li>
                 <li class="my-1 aside-item">
                   <a class="h4" href="">Button</a>
                 </li>
                 <li class="my-1 aside-item"><a class="h4" href="#">Card</a></li>
-                <li class="my-1 aside-item"><a class="h4" href="#">Image</a></li>
-                <li class="my-1 aside-item"><a class="h4" href="#">Input</a></li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="#">Image</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="#">Input</a>
+                </li>
               </ul>
             </nav>
           </aside>
           <section class="content-doc">
             <section class="max-width-1200 mx-auto h-100">
               <header class="main-section-header">
-                <h1>Alert</h1>
+                <h1>Avatar</h1>
               </header>
               <section class="main-section">
                 <h2>Introduction</h2>
                 <p>
-                  Alerts make it possible for user's to be up to date with
-                  information that matters the most. <br />
-                  By using alerts, you provide contextual feedback messages to
-                  your users, depending on actions performed by them.
+                    Avatars give each user their own identity on the ever growing number of social platforms. </br />
+                    Using our various types of avatars, you can give your users flexibililty in the way they want to express themselves, while also ensuring the avatars stick to your theme. <br />
+                    Each avatar must have the class <code>avatar</code> inside it's parent. <br/>
+                    There are four sizes available: <code>avatar-sm</code> , <code>avatar-md</code> , <code>avatar-lg</code> & <code>avatar-xl</code>
                 </p>
               </section>
               <section class="main-section">
-                <h2>Simple Alert</h2>
-                <p>
-                  Like the name suggests, these alerts do not fuss about, and
-                  display the appropriate messages based on user actions. By
-                  default these alerts take up 100% width of the site.
+                <h2>Sqaure Image Avatar</h2>
+                <p> To ensure your image is sqaure, use the <code>avatar-square</code>
+                    class on the parent element. 
                 </p>
                 <div class="example">
-                  <div class="alert alert-primary">
-                    <p>A simple <strong>Primary Alert!</strong></p>
+                  <div class="avatar avatar-sm avatar-square">
+                    <img src="../../assets/TanayPratap.png" alt="" />
                   </div>
-                  <div class="alert alert-success">
-                    <p>A simple <strong>Success Alert!</strong></p>
+                  <div class="avatar avatar-md avatar-square">
+                    <img src="../../assets/TanayPratap.png" alt="" />
                   </div>
-                  <div class="alert alert-warning">
-                    <p>A simple <strong>Warning Alert!</strong></p>
+                  <div class="avatar avatar-lg avatar-square">
+                    <img src="../../assets/TanayPratap.png" alt="" />
                   </div>
-                  <div class="alert alert-error">
-                    <p>A simple <strong>Error Alert!</strong></p>
+                  <div class="avatar avatar-xl avatar-square">
+                    <img src="../../assets/TanayPratap.png" alt="" />
                   </div>
                 </div>
                 <div class="code-snippet">
+                     
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EA%2520simple%2520%253Cstrong%253EPrimary%2520Alert%21%253C%252Fstrong%253E%2520check%2520it%2520out%2520now%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EA%2520simple%2520%253Cstrong%253ESuccess%2520Alert%21%253C%252Fstrong%253E%2520check%2520it%2520out%2520now%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EA%2520simple%2520%253Cstrong%253EWarning%2520Alert%21%253C%252Fstrong%253E%2520check%2520it%2520out%2520now%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EA%2520simple%2520%253Cstrong%253EError%2520Alert%21%253C%252Fstrong%253E%2520check%2520it%2520out%2520now%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    style="
-                      width: 100%;
-                      height: 300px;
-                      border: 0;
-                      transform: scale(1);
-                      overflow: hidden;
-                    "
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520avatar-square%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-square%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520avatar-square%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520avatar-square%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+                  style="
+                  width: 100%;
+                  min-height: 119px;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
                     sandbox="allow-scripts allow-same-origin"
                   >
                   </iframe>
                 </div>
               </section>
               <section class="main-section">
-                <h2>Alert with icon</h2>
-                <p>
-                    An icon is used inside the alert to visually convey the type and importance of the alert to the user. <br/>
-                    Icons used here are imported from FontAwesome.
+                <h2>Round Corners Avatar</h2>
+                <p> To apply a rounded corner to your image, use the <code>avatar-corner</code>
+                    class on the parent element.
                 </p>
                 <div class="example">
-                  <div class="alert alert-success">
-                    <i class="fas fa-check-circle"></i>
-                    <p>
-                      A simple <strong>Success Alert!</strong>
-                    </p>
+                  <div class="avatar avatar-sm avatar-corner">
+                    <img src="../../assets/TanayPratap.png" alt="" />
                   </div>
-                  <div class="alert alert-error">
-                    <i class="fas fa-exclamation-circle"></i>
-                    <p>
-                      A simple <strong>Error Alert!</strong>
-                    </p>
+                  <div class="avatar avatar-md avatar-corner">
+                    <img src="../../assets/TanayPratap.png" alt="" />
+                  </div>
+                  <div class="avatar avatar-lg avatar-corner">
+                    <img src="../../assets/TanayPratap.png" alt="" />
+                  </div>
+                  <div class="avatar avatar-xl avatar-corner">
+                    <img src="../../assets/TanayPratap.png" alt="" />
                   </div>
                 </div>
-                <div class="code-snippet">
-                    
+                <div class="code-snippet"> 
                   <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2509A%2520simple%2520%253Cstrong%253ESuccess%2520Alert%21%253C%252Fstrong%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2509A%2520simple%2520%253Cstrong%253EError%2520Alert%21%253C%252Fstrong%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
                   style="
                       width: 100%;
                       height: 300px;
@@ -176,30 +178,60 @@
                 </div>
               </section>
               <section class="main-section">
-                <h2>Alert with Link</h2>
-                <p>
-                  Like the name suggests, these alerts do not fuss about, and
-                  display the appropriate messages based on user actions. By
-                  default these alerts take up 100% width of the site.
-                </p>
+                <h2>Round Avatar</h2>
+                <p> To apply a rounded corner to your image, use the <code>avatar-round</code>
+                    class on the parent element.</p>
                 <div class="example">
-                  <div class="alert alert-primary">
-                    <p>
-                      A simple
-                      <a href="#" class="alert-link"><strong>Primary Alert!</strong></a>
-                    </p>
+                  <div class="avatar avatar-sm avatar-round">
+                    <img src="../../assets/TanayPratap.png" alt="" />
                   </div>
-                  <div class="alert alert-error">
-                    <p>
-                      A simple
-                      <a href="#" class="alert-link"><strong>Error Alert!</strong></a>
-                    </p>
+                  <div class="avatar avatar-md avatar-round">
+                    <img src="../../assets/TanayPratap.png" alt="" />
+                  </div>
+                  <div class="avatar avatar-lg avatar-round">
+                    <img src="../../assets/TanayPratap.png" alt="" />
+                  </div>
+                  <div class="avatar avatar-xl avatar-round">
+                    <img src="../../assets/TanayPratap.png" alt="" />
                   </div>
                 </div>
-                <div class="code-snippet">
-                    
+                <div class="code-snippet"> 
                   <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2509%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%2520Alert%21%253C%252Fstrong%253E%250A%2509%2509%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2509%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%2520Alert%21%253C%252Fstrong%253E%250A%2509%2509%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
+                  style="
+                      width: 100%;
+                      height: 300px;
+                      border: 0;
+                      transform: scale(1);
+                      overflow: hidden;
+                    "
+                    sandbox="allow-scripts allow-same-origin"
+                  >
+                  </iframe>
+                </div>
+              </section>
+              <section class="main-section">
+                <h2>Text Avatar</h2>
+                <p> This avatar gives you the ability to enter any text inside.
+                    class on the parent element.
+                </p>
+                <div class="example">
+                    <div class="avatar-text avatar-sm avatar-round">
+                        AB
+                    </div>
+                    <div class="avatar-text avatar-md avatar-round">
+                        HH
+                    </div>
+                    <div class="avatar-text avatar-lg avatar-round">
+                        Hamza
+                    </div>
+                    <div class="avatar-text avatar-xl avatar-round">
+                        neoG
+                    </div>
+                </div>
+                <div class="code-snippet"> 
+                  <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520avatar-corner%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522your%2520image%2520URL%2520here%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
                   style="
                       width: 100%;
                       height: 300px;
