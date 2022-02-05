@@ -1,0 +1,42 @@
+@import url("../../styles.css");
+@import url("../../stylesheets/navbar.css");
+@import url("../../stylesheets/footer.css");
+@import url("../../stylesheets/sidebar.css");
+@import url("./getstarted.css");
+@import url("../../components/image/image.css");
+
+.example {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: var(--size-13);
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px;
+}
+
+.img-square,
+.img-round,
+.img-corner {
+  object-fit: cover;
+  width: var(--size-45);
+  height: var(--size-45);
+}
+
+/* Round image */
+.img-round {
+  border-radius: var(--radius-rounded);
+}
+
+/* Round corner image */
+.img-corner {
+  border-radius: var(--radius-extra-large);
+}
+
+/* Responsive image */
+.img-dynamic {
+  max-width: 62.5rem;
+}

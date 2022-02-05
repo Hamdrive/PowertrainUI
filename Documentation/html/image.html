@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/alert.css" />
+    <link rel="stylesheet" href="../css/image.css" />
     <link
       rel="shortcut icon"
       href="../../assets/favicon.ico"
@@ -41,7 +41,9 @@
                 >
               </li>
               <li class="menu-list">
-                <a href="#" class="menu-item btn btn-md mx-1 active">Docs</a>
+                <a href="./alert.html" class="menu-item btn btn-md mx-1 active"
+                  >Docs</a
+                >
               </li>
               <li class="menu-list">
                 <a
@@ -69,8 +71,8 @@
                 <li class="my-1 aside-item">
                   <a class="h4" href="./getstarted.html">Get Started</a>
                 </li>
-                <li class="my-1 aside-item aside-active">
-                  <a class="h4" href="#">Alert</a>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./alert.html">Alert</a>
                 </li>
                 <li class="my-1 aside-item">
                   <a class="h4" href="./avatar.html">Avatar</a>
@@ -84,8 +86,8 @@
                 <li class="my-1 aside-item">
                   <a class="h4" href="./card.html">Card</a>
                 </li>
-                <li class="my-1 aside-item">
-                  <a class="h4" href="./image.html">Image</a>
+                <li class="my-1 aside-item aside-active">
+                  <a class="h4" href="#">Image</a>
                 </li>
                 <li class="my-1 aside-item">
                   <a class="h4" href="./input.html">Input</a>
@@ -96,41 +98,74 @@
           <section class="content-doc">
             <section class="max-width-1200 mx-auto h-100">
               <header class="main-section-header">
-                <h1>Alert</h1>
+                <h1>Image</h1>
               </header>
               <section class="main-section">
                 <h2>Introduction</h2>
                 <p>
-                  Alerts make it possible for user's to be up to date with
-                  information that matters the most. <br />
-                  By using alerts, you provide contextual feedback messages to
-                  your users, depending on actions performed by them.
+                  Images are the heart and soul of a website. <br />
+                  Without them, websites would become one large collection of
+                  text. We allow you to style your images the way you'd like,
                 </p>
               </section>
               <section class="main-section">
-                <h2>Simple Alert</h2>
+                <h2>Square Image</h2>
                 <p>
-                  Like the name suggests, these alerts do not fuss about, and
-                  display the appropriate messages based on user actions. By
-                  default these alerts take up 100% width of the site.
+                  To ensure your image is square, use the
+                  <code>img-square</code> class in the <code>img</code> element.
+                  <br />
+                  Default size is <code>150px x 150px</code>.
                 </p>
                 <div class="example">
-                  <div class="alert alert-primary">
-                    <p>A simple <strong>Primary Alert!</strong></p>
-                  </div>
-                  <div class="alert alert-success">
-                    <p>A simple <strong>Success Alert!</strong></p>
-                  </div>
-                  <div class="alert alert-warning">
-                    <p>A simple <strong>Warning Alert!</strong></p>
-                  </div>
-                  <div class="alert alert-error">
-                    <p>A simple <strong>Error Alert!</strong></p>
-                  </div>
+                  <img
+                    src="https://picsum.photos/id/403/200/300"
+                    alt=""
+                    class="img-square"
+                  />
+                  <img
+                    src="https://picsum.photos/id/63/200/300"
+                    alt=""
+                    class="img-square"
+                  />
                 </div>
                 <div class="code-snippet">
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EA%2520simple%2520%253Cstrong%253EPrimary%2520Alert%21%253C%252Fstrong%253E%2520check%2520it%2520out%2520now%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EA%2520simple%2520%253Cstrong%253ESuccess%2520Alert%21%253C%252Fstrong%253E%2520check%2520it%2520out%2520now%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EA%2520simple%2520%253Cstrong%253EWarning%2520Alert%21%253C%252Fstrong%253E%2520check%2520it%2520out%2520now%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EA%2520simple%2520%253Cstrong%253EError%2520Alert%21%253C%252Fstrong%253E%2520check%2520it%2520out%2520now%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522---------your%2520URL%2520here---------%2522%2520alt%253D%2522%2522%2520class%253D%2522img-square%2522%253E"
+                    style="
+                      min-height: 200px;
+                      border: 0;
+                      transform: scale(1);
+                      overflow: scroll;
+                    "
+                    sandbox="allow-scripts allow-same-origin"
+                  >
+                  </iframe>
+                </div>
+              </section>
+              <section class="main-section">
+                <h2>Round Image</h2>
+                <p>
+                  To ensure your image is round, use the
+                  <code>img-round</code> class in the <code>img</code> element.
+                  <br />
+                  Default size is <code>150px x 150px</code>. Border radius
+                  applied is <code>50%</code>.
+                </p>
+                <div class="example">
+                  <img
+                    src="https://picsum.photos/id/66/200/300"
+                    alt=""
+                    class="img-round"
+                  />
+                  <img
+                    src="https://picsum.photos/id/212/200/300"
+                    alt=""
+                    class="img-round"
+                  />
+                </div>
+                <div class="code-snippet">
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522---------your%2520URL%2520here---------%2522%2520alt%253D%2522%2522%2520class%253D%2522img-round%2522%253E"
                     style="
                       min-height: 200px;
                       border: 0;
@@ -143,64 +178,20 @@
                 </div>
               </section>
               <section class="main-section">
-                <h2>Alert with icon</h2>
+                <h2>Responsive Image</h2>
                 <p>
-                  An icon is used inside the alert to visually convey the type
-                  and importance of the alert to the user. <br />
-                  Icons used here are imported from FontAwesome.
+                  Image can be made responsive by using the
+                  <code>img-dynamic</code> class in the parent element.
+                  <br />
                 </p>
                 <div class="example">
-                  <div class="alert alert-success">
-                    <i class="fas fa-check-circle"></i>
-                    <p>A simple <strong>Success Alert!</strong></p>
-                  </div>
-                  <div class="alert alert-error">
-                    <i class="fas fa-exclamation-circle"></i>
-                    <p>A simple <strong>Error Alert!</strong></p>
+                  <div class="img-dynamic">
+                    <img src="https://picsum.photos/id/1/500/500" alt="" />
                   </div>
                 </div>
                 <div class="code-snippet">
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2509A%2520simple%2520%253Cstrong%253ESuccess%2520Alert%21%253C%252Fstrong%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2509A%2520simple%2520%253Cstrong%253EError%2520Alert%21%253C%252Fstrong%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-                    style="
-                      min-height: 200px;
-                      border: 0;
-                      transform: scale(1);
-                      overflow: hidden;
-                    "
-                    sandbox="allow-scripts allow-same-origin"
-                  >
-                  </iframe>
-                </div>
-              </section>
-              <section class="main-section">
-                <h2>Alert with Link</h2>
-                <p>
-                  Like the name suggests, these alerts do not fuss about, and
-                  display the appropriate messages based on user actions. By
-                  default these alerts take up 100% width of the site.
-                </p>
-                <div class="example">
-                  <div class="alert alert-primary">
-                    <p>
-                      A simple
-                      <a href="#" class="alert-link"
-                        ><strong>Primary Alert!</strong></a
-                      >
-                    </p>
-                  </div>
-                  <div class="alert alert-error">
-                    <p>
-                      A simple
-                      <a href="#" class="alert-link"
-                        ><strong>Error Alert!</strong></a
-                      >
-                    </p>
-                  </div>
-                </div>
-                <div class="code-snippet">
-                  <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2509%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%2520Alert%21%253C%252Fstrong%253E%250A%2509%2509%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2509%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%2520Alert%21%253C%252Fstrong%253E%250A%2509%2509%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-dynamic%2522%253E%250A%2509%253Cimg%2520src%253D%2522---------your%2520URL%2520here---------%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"
                     style="
                       min-height: 200px;
                       border: 0;
