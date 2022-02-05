@@ -17,8 +17,9 @@
   z-index: 1;
 }
 
-.main-section p{
-  max-width: 75%;
+.main-section p {
+  max-width: 100%;
+  line-height: 1.75;
 }
 
 .code-snippet {
@@ -32,6 +33,9 @@
   font-weight: var(--weight-normal);
   color: var(--primary-dark-color);
   margin: var(--size-11) auto 0;
+  background-color: var(--primary-extra-light-color);
+  padding: 0.25rem;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 769px) {
@@ -40,7 +44,7 @@
     padding: 0 var(--size-13);
   }
 
-  .main{
+  .main {
     padding: 0 var(--size-9);
   }
 }

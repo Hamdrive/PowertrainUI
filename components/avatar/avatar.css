@@ -1,62 +1,65 @@
 /* Avatar CSS */
 .avatar {
   display: inline-flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: var(--avatar-icon-bkg);
-  border-radius: var(--radius-rounded);
-  font-weight: var(--weight-medium);
   overflow: hidden;
   border: var(--size-2) solid var(--color-grey);
 }
 
+.avatar img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /* Round avatars */
-.sm {
-  width: var(--size-13);
-  height: var(--size-13);
-  font-size: var(--size-7);
-}
-
-.sm .icon {
-  font-size: var(--size-9);
-}
-
-.md {
+.avatar-sm {
   width: var(--size-17);
   height: var(--size-17);
+  font-size: var(--size-8);
+}
+
+.avatar-md {
+  width: var(--size-20);
+  height: var(--size-20);
   font-size: var(--size-9);
 }
 
-.md .icon {
-  font-size: var(--size-11);
-}
-
-.lg {
-  width: var(--size-21);
-  height: var(--size-21);
-  font-size: var(--size-11);
-}
-
-.lg .icon {
-  font-size: var(--size-13);
-}
-
-.xl {
+.avatar-lg {
   width: var(--size-25);
   height: var(--size-25);
-  font-size: var(--size-13);
+  font-size: var(--size-10);
 }
 
-.xl .icon {
-  font-size: var(--size-15);
+.avatar-xl {
+  width: 7rem;
+  height: 7rem;
+  font-size: var(--size-12);
 }
 
 /* Square avatar */
-.avatar.square {
+.avatar-square {
   border-radius: 0;
 }
 
 /* Round corners avatar */
-.avatar.corner {
+.avatar-corner {
   border-radius: var(--radius-large);
+}
+
+/* Round avatar */
+.avatar-round{
+  border-radius: var(--radius-rounded);
+}
+
+.avatar-text{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  font-weight: var(--weight-semibold);
 }
