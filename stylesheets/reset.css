@@ -34,44 +34,6 @@ button {
   outline: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-family: var(--primary-font-family);
-}
-
-h1,
-.h1 {
-  font-size: var(--size-17);
-  margin: var(--size-9) 0;
-}
-
-h2,
-.h2 {
-  font-size: var(--size-13);
-  margin: var(--size-5) 0;
-}
-
-h3,
-.h3 {
-  font-size: var(--size-11);
-  margin: var(--size-9) 0;
-}
-
-h4,
-.h4 {
-  font-size: var(--size-10);
-}
-
-p {
-  font-weight: var(--weight-medium);
-  font-size: 1.1rem;
-}
-
 img,
 picture,
 video,
