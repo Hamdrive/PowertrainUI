@@ -1,0 +1,116 @@
+/* Heading */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: var(--primary-font-family);
+  line-height: 1.5;
+}
+
+h1,
+.h1 {
+  font-size: var(--size-17);
+  margin: var(--size-9) 0;
+}
+
+h2,
+.h2 {
+  font-size: var(--size-13);
+  margin: var(--size-5) 0;
+}
+
+h3,
+.h3 {
+  font-size: var(--size-11);
+  margin: var(--size-9) 0;
+}
+
+h4,
+.h4 {
+  font-size: var(--size-10);
+}
+
+h5,
+.h5 {
+  font-size: var(--size-9);
+}
+
+h6,
+.h6 {
+  font-size: var(--size-8);
+}
+
+/* Paragraph sizes */
+p {
+  font-weight: var(--weight-medium);
+  font-size: 1.1rem;
+}
+
+.txt-lg {
+  font-size: 1.875rem;
+}
+
+.txt-md {
+  font-size: 1.5rem;
+}
+
+.txt-sm {
+  font-size: 0.875rem;
+}
+
+/* Font weight */
+.txt-light{
+    font-weight: 300;
+}
+
+.txt-regular{
+    font-weight: 400;
+}
+
+.txt-semibold{
+    font-weight: 600;
+}
+
+.txt-bold{
+    font-weight: 700;
+}
+
+.txt-black{
+    font-weight: 900;
+}
+
+/* Text Utility */
+.txt-right{
+    text-align: right;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.txt-left{
+    text-align: left;
+}
+
+.txt-strike{
+    text-decoration: line-through;
+}
+
+.txt-underline{
+    text-decoration: underline;
+}
+
+/* Text Specificity */
+.txt-primary{
+    color: var(--primary-light-color);
+}
+
+.txt-grey{
+    color: var(--color-grey);
+}
+
+
