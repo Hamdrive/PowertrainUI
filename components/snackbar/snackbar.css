@@ -37,9 +37,8 @@
 }
 
 .baseline button,
-.leading button,
-.stacked button {
-  color: blueviolet;
+.leading button {
+  color: var(--primary-light-color);
   border: none;
   background-color: inherit;
   font-weight: 600;
@@ -51,9 +50,8 @@
 }
 
 .baseline button:hover,
-.leading button:hover,
-.stacked button:hover {
-  background-color: rgba(137, 43, 226, 0.2);
+.leading button:hover {
+  background-color: var(--primary-extra-light-color);
 }
 
 .cta {
@@ -77,9 +75,9 @@
 
 .snackbar-close-icon i {
   font-size: 1.2rem;
-  color: white;
+  color: var(--color-white);
 }
 
 .snackbar-close-icon:hover {
-  background-color: grey;
+  background-color: var(--color-grey);
 }
