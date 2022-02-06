@@ -2,7 +2,7 @@
   width: 100%;
   position: sticky;
   background-color: var(--primary-light-color);
-  z-index: 1;
+  z-index: 9999;
 }
 
 .logo {
