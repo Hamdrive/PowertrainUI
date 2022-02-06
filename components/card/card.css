@@ -2,8 +2,8 @@
   position: relative;
   background-color: var(--color-white);
   width: 22rem;
-  min-height: 18rem;
-  max-height: 30rem;
+  min-height: 14rem;
+  max-height: 32rem;
   border-radius: var(--radius-extra-large);
   box-shadow: var(--box-shadow);
   overflow: hidden;
@@ -15,7 +15,8 @@
 
 .card-img {
   width: 100%;
-  height: 150px;
+  height: 200px;
+  position: relative;
 }
 
 .card-img-hor img,
@@ -58,9 +59,17 @@
   font-size: var(--size-7);
 }
 
-.brief-overlay {
+.card-title.brief-overlay {
   top: 40%;
   color: var(--color-white);
+  height: fit-content;
+  width: 100%;
+  background-color: var(--primary-extra-light-color);
+  padding: 0 var(--size-5);
+}
+
+.card-head{
+  height: 100%;
 }
 
 .card-title,
@@ -76,13 +85,14 @@
 }
 
 .text-card-brief {
-  max-height: 10rem;
-}
+  max-height: 14rem;
+  }
 
 .text-card-brief,
 .card-brief {
   overflow-y: scroll;
   white-space: normal;
+  padding: var(--size-5) var(--size-9);
 }
 
 .card-brief {
@@ -147,11 +157,15 @@
   }
 
   .card-title-hor {
-    width: 50%;
+    width: 60%;
   }
 
   .card-img-hor {
-    width: 50%;
+    width: 40%;
+  }
+
+  .card-img-hor img{
+    object-fit: contain;
   }
 
   .card-badge {
