@@ -32,6 +32,7 @@
   padding: var(--size-5);
   font-size: var(--size-10);
   font-weight: var(--weight-semibold);
+  z-index: 1;
 }
 
 .card-badge:hover {
