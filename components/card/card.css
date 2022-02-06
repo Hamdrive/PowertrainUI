@@ -2,17 +2,35 @@
   position: relative;
   background-color: var(--color-white);
   width: 22rem;
+  min-height: 18rem;
   max-height: 30rem;
   border-radius: var(--radius-extra-large);
   box-shadow: var(--box-shadow);
   overflow: hidden;
 }
 
+.card-img-hor {
+  width: 40%;
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+}
+
+.card-img-hor img,
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .card-badge {
   background-color: var(--primary-color);
   color: var(--color-white);
-  padding: var(--size-3);
-  transition: background-color 0.1s ease-in-out;
+  padding: var(--size-5);
+  font-size: var(--size-10);
+  font-weight: var(--weight-semibold);
 }
 
 .card-badge:hover {
@@ -20,7 +38,7 @@
 }
 
 .card-badge .icon {
-  padding: var(--size-5) var(--size-9);
+  padding: var(--size-3);
   font-size: var(--size-11);
 }
 
@@ -45,28 +63,53 @@
   color: var(--color-white);
 }
 
-.card-title {
-  padding: var(--size-5) var(--size-9);
-  text-align: left;
+.card-title,
+.card-title-hor {
+  padding: var(--size-5);
   flex-wrap: wrap;
+  text-align: left;
 }
 
-.card-brief {
-  padding: var(--size-5) var(--size-9);
-  font-weight: var(--weight-medium);
+.card-title-hor p, .card-title p {
+  font-weight: var(--weight-bold);
+  font-size: var(--size-10);
+}
+
+.text-card-brief {
   max-height: 10rem;
+}
+
+.text-card-brief,
+.card-brief {
   overflow-y: scroll;
   white-space: normal;
 }
 
+.card-brief {
+  max-height: 5rem;
+  padding: var(--size-5) var(--size-9);
+  font-weight: var(--weight-medium);
+}
+
 .card-footer {
-  padding: var(--size-5) 0;
+  padding: var(--size-5);
   background-color: var(--color-white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta-btns {
+  max-width: 60%;
 }
 
 .cta-btns,
 .card-icons {
   display: flex;
+}
+
+.card-icons {
+  width: 30%;
 }
 
 .cta-icons {
@@ -84,4 +127,38 @@
 
 .cta-icons:hover [class^="f"] {
   color: var(--color-white);
+}
+
+@media screen and (max-width: 480px) {
+  .card-title h2{
+    font-size: var(--size-11);
+  }
+
+  .card-brief{
+    padding: 0.5rem 0;
+  }
+
+  .cta-btns span {
+    display: none;
+  }
+
+  .card-footer {
+    justify-content: space-between;
+  }
+
+  .card-title-hor {
+    width: 50%;
+  }
+
+  .card-img-hor {
+    width: 50%;
+  }
+
+  .card-badge {
+    font-size: var(--size-9);
+  }
+
+  .card-icons {
+    width: 40%;
+  }
 }

@@ -189,6 +189,10 @@
   width: 60%;
 }
 
+.w-70 {
+  width: 70%;
+}
+
 /* Max width */
 .max-width-1000 {
   max-width: 62.5rem;
