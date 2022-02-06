@@ -1,0 +1,40 @@
+@import url("../../styles.css");
+@import url("../../stylesheets/navbar.css");
+@import url("../../stylesheets/footer.css");
+@import url("../../stylesheets/sidebar.css");
+@import url("./getstarted.css");
+@import url("../../components/snackbar/snackbar.css");
+
+.example {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: var(--size-13);
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 769px) {
+    .baseline, .leading{
+        font-size: var(--size-8);
+        padding: var(--size-5);
+        margin-left: 0;
+        min-width: 80%;
+        max-width: 80%;
+    }
+    .baseline button,
+    .leading button{
+        font-size: var(--size-8);
+    }
+    .snackbar-close-icon{
+        width: var(--size-13);
+        height: var(--size-13);
+    }
+    .snackbar-close-icon i{
+        font-size: var(--size-9);
+    }
+}
