@@ -103,51 +103,66 @@
               <section class="main-section">
                 <h2>Introduction</h2>
                 <p>
-                  Images are the heart and soul of a website. <br />
-                  Without them, websites would become one large collection of
-                  text. We allow you to style your images the way you'd like,
+                  Cards are primarily used to convey short information to users.
+                  <br />
+                  Mostly seen on E-Commerce websites, cards are used to convery
+                  product illustration, alongwith information and also come with
+                  multiple action buttons. <br />
+                  The cards provided by Powertrain are <code>350 px</code> wide,
+                  being the most common size widely used across many platforms.
+                  <br />
+                  Icons are imported and used from
+                  <a href="https://fontawesome.com"><code>FontAwesome</code></a
+                  >. <br />
                 </p>
               </section>
               <section class="main-section">
                 <h2>Horizontal Card</h2>
                 <p>
-                  To ensure your image is square, use the
-                  <code>img-square</code> class in the <code>img</code> element.
-                  <br />
-                  Default size is <code>150px x 150px</code>.
+                  Horizontal cards come to play primarily on mobiles or on
+                  websites where you'd like to place the card as discreetly yet
+                  still be visible to the user. <br />
+                  These cards do not have a brief bio/description. <br />
                 </p>
                 <div class="example">
-                    <div class="card">
-                        <div class="card-head flex-row">
-
-                          <div class="card-img-hor">
-                              <img src="../../assets/f1Wing.jpg" alt="vertical card" />
-                          </div>
-                          <div class="card-title-hor flex-col">
-                            <h3>F1 Rear Wing</h3>
-                            <p>₹43,22,999/-</p>
-                            <s>₹65,50,000/-</s>
-                          </div>
+                  <div class="card">
+                    <div class="card-head flex-row">
+                      <div class="card-img-hor">
+                        <img
+                          src="../../assets/f1Wing.jpg"
+                          alt="vertical card"
+                        />
+                      </div>
+                      <div class="card-title-hor flex-col">
+                        <h3>F1 Rear Wing</h3>
+                        <p>₹43,22,999/-</p>
+                        <s>₹65,50,000/-</s>
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="pos-ab bottom-full card-footer">
+                      <div class="cta-btns">
+                        <a href="#"
+                          ><button class="btn btn-def btn-md">
+                            <i class="fas fa-shopping-cart"></i
+                            ><span>Add to cart</span>
+                          </button></a
+                        >
+                      </div>
+                      <div class="card-icons flex-between">
+                        <div class="cta-icons flex-center">
+                          <i class="far fa-heart"></i>
                         </div>
-                        <hr />
-                        <div class="pos-ab bottom-full card-footer">
-                          <div class="cta-btns">
-                            <a href="#"><button class="btn btn-def btn-md"><i class="fas fa-shopping-cart"></i><span>Add to cart</span></button></a>
-                          </div>
-                          <div class="card-icons flex-between">
-                            <div class="cta-icons flex-center">
-                              <i class="far fa-heart"></i>
-                            </div>
-                            <div class="cta-icons flex-center">
-                              <i class="fas fa-share-alt"></i>
-                            </div>
-                          </div>
+                        <div class="cta-icons flex-center">
+                          <i class="fas fa-share-alt"></i>
                         </div>
                       </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="code-snippet">
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522---------your%2520URL%2520here---------%2522%2520alt%253D%2522%2522%2520class%253D%2522img-square%2522%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-head%2520flex-row%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img-hor%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Ff1Wing.jpg%2522%2520alt%253D%2522vertical%2520card%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title-hor%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EText%25201%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cs%253EText%25202%253C%252Fs%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522pos-ab%2520bottom-full%2520card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cbutton%2520class%253D%2522btn%2520btn-def%2520btn-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2520flex-between%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-icons%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-icons%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
                     style="
                       min-height: 200px;
                       border: 0;
@@ -162,29 +177,31 @@
               <section class="main-section">
                 <h2>Text-only Card</h2>
                 <p>
-                  To ensure your image is round, use the
-                  <code>img-round</code> class in the <code>img</code> element.
-                  <br />
-                  Default size is <code>150px x 150px</code>. Border radius
-                  applied is <code>50%</code>.
+                  Text cards simply consist of a title and a description. <br />
+                  Such cards are more widely used for sharing nuggets of
+                  information in a small space <br />
                 </p>
                 <div class="example">
-                    <div class="card">
-                        <div class="card-title flex-col">
-                          <h2>F1 Rear Wing</h2>
-                        </div>
-                        <div class="text-card-brief">
-                          This is a 2022 spec wing, found around the corner of some road in
-                          Brackley.
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, aperiam. Obcaecati assumenda enim quidem dolor asperiores voluptates, quis dolorem, esse facere ea, eos atque cum ex eius mollitia aut? Sint.
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quis sapiente quod labore, modi necessitatibus quae illum inventore facere quidem. Labore qui porro corporis laborum animi laudantium aspernatur, voluptates quibusdam.
-                        </div>
-                      </div>
-                
+                  <div class="card">
+                    <div class="card-title flex-col">
+                      <h2>F1 Rear Wing</h2>
+                    </div>
+                    <div class="text-card-brief">
+                      This is a 2022 spec wing, found around the corner of some
+                      road in Brackley. Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Unde, aperiam. Obcaecati assumenda enim
+                      quidem dolor asperiores voluptates, quis dolorem, esse
+                      facere ea, eos atque cum ex eius mollitia aut? Sint. Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                      quis sapiente quod labore, modi necessitatibus quae illum
+                      inventore facere quidem. Labore qui porro corporis laborum
+                      animi laudantium aspernatur, voluptates quibusdam.
+                    </div>
+                  </div>
                 </div>
                 <div class="code-snippet">
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522---------your%2520URL%2520here---------%2522%2520alt%253D%2522%2522%2520class%253D%2522img-round%2522%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-title%2520flex-col%2522%253E%250A%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-card-brief%2522%253E%250A%2520%2520%2520%2520%2520%2520Your%2520description%2520here%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
                     style="
                       min-height: 200px;
                       border: 0;
@@ -199,44 +216,53 @@
               <section class="main-section">
                 <h2>Vertical Card</h2>
                 <p>
-                  Image can be made responsive by using the
-                  <code>img-dynamic</code> class in the parent element.
-                  <br />
+                  Vertical cards are the most common type of cards seen used
+                  across multiple platforms. <br />
+                  Being vertical means you can fit all the required information
+                  without having to fight for space. <br />
                 </p>
                 <div class="example">
-                    <div class="card">
-                        <div class="card-img">
-                            <img src="../../assets/f1Wing.jpg" alt="vertical card" />
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="../../assets/f1Wing.jpg" alt="vertical card" />
+                    </div>
+                    <div class="card-title flex-col">
+                      <h2>F1 Rear Wing</h2>
+                      <p>₹43,22,999/-</p>
+                      <s>₹65,50,000/-</s>
+                    </div>
+                    <div class="card-brief">
+                      This is a 2022 spec wing, found around the corner of some
+                      road in Brackley. Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Non inventore esse nostrum dolorum, vero
+                      doloremque eveniet dolor eaque, sed nihil ad, adipisci
+                      expedita dolore soluta repellendus corrupti laboriosam
+                      quia similique?
+                    </div>
+                    <hr />
+                    <div class="card-footer flex-around">
+                      <div class="cta-btns">
+                        <a href="#"
+                          ><button class="btn btn-def btn-md">
+                            <i class="fas fa-shopping-cart"></i
+                            ><span>Add to cart</span>
+                          </button></a
+                        >
+                      </div>
+                      <div class="card-icons flex-between w-40">
+                        <div class="cta-icons flex-center">
+                          <i class="far fa-heart"></i>
                         </div>
-                        <div class="card-title flex-col">
-                          <h2>F1 Rear Wing</h2>
-                          <p>₹43,22,999/-</p>
-                          <s>₹65,50,000/-</s>
-                        </div>
-                        <div class="card-brief">
-                          This is a 2022 spec wing, found around the corner of some road in
-                          Brackley.
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore esse nostrum dolorum, vero doloremque eveniet dolor eaque, sed nihil ad, adipisci expedita dolore soluta repellendus corrupti laboriosam quia similique?
-                        </div>
-                        <hr />
-                        <div class="card-footer flex-around">
-                          <div class="cta-btns">
-                            <a href="#"><button class="btn btn-def btn-md"><i class="fas fa-shopping-cart"></i><span>Add to cart</span></button></a>
-                          </div>
-                          <div class="card-icons flex-between w-40">
-                            <div class="cta-icons flex-center">
-                              <i class="far fa-heart"></i>
-                            </div>
-                            <div class="cta-icons flex-center">
-                              <i class="fas fa-share-alt"></i>
-                            </div>
-                          </div>
+                        <div class="cta-icons flex-center">
+                          <i class="fas fa-share-alt"></i>
                         </div>
                       </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="code-snippet">
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-dynamic%2522%253E%250A%2509%253Cimg%2520src%253D%2522---------your%2520URL%2520here---------%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Ff1Wing.jpg%2522%2520alt%253D%2522vertical%2520card%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-title%2520flex-col%2522%253E%250A%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253EText%25201%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cs%253EText%25202%253C%252Fs%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-brief%2522%253E%250A%2520%2520%2520%2520Your%2520description%2520here%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520flex-around%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cbutton%2520class%253D%2522btn%2520btn-def%2520btn-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2520flex-between%2520w-40%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-icons%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-icons%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
                     style="
                       min-height: 200px;
                       border: 0;
@@ -251,49 +277,54 @@
               <section class="main-section">
                 <h2>Vertical Card With Badge</h2>
                 <p>
-                  Image can be made responsive by using the
-                  <code>img-dynamic</code> class in the parent element.
-                  <br />
+                  Badges in cards are used to convey important information
+                  regarding the content inside the card. <br />
                 </p>
                 <div class="example">
-                    <div class="card">
-                        <div
-                            class="pos-ab card-badge card-badge-left top-left-pos"
-                          >
-                            33% off
-                          </div>
-                        <div class="card-img">
-                            <img src="../../assets/f1Wing.jpg" alt="vertical card" />
+                  <div class="card">
+                    <div class="pos-ab card-badge card-badge-left top-left-pos">
+                      33% off
+                    </div>
+                    <div class="card-img">
+                      <img src="../../assets/f1Wing.jpg" alt="vertical card" />
+                    </div>
+                    <div class="card-title flex-col">
+                      <h2>F1 Rear Wing</h2>
+                      <p>₹43,22,999/-</p>
+                      <s>₹65,50,000/-</s>
+                    </div>
+                    <div class="card-brief">
+                      This is a 2022 spec wing, found around the corner of some
+                      road in Brackley. Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Non inventore esse nostrum dolorum, vero
+                      doloremque eveniet dolor eaque, sed nihil ad, adipisci
+                      expedita dolore soluta repellendus corrupti laboriosam
+                      quia similique?
+                    </div>
+                    <hr />
+                    <div class="card-footer flex-around">
+                      <div class="cta-btns">
+                        <a href="#"
+                          ><button class="btn btn-def btn-md">
+                            <i class="fas fa-shopping-cart"></i
+                            ><span>Add to cart</span>
+                          </button></a
+                        >
+                      </div>
+                      <div class="card-icons flex-between w-40">
+                        <div class="cta-icons flex-center">
+                          <i class="far fa-heart"></i>
                         </div>
-                        <div class="card-title flex-col">
-                          <h2>F1 Rear Wing</h2>
-                          <p>₹43,22,999/-</p>
-                          <s>₹65,50,000/-</s>
-                        </div>
-                        <div class="card-brief">
-                          This is a 2022 spec wing, found around the corner of some road in
-                          Brackley.
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore esse nostrum dolorum, vero doloremque eveniet dolor eaque, sed nihil ad, adipisci expedita dolore soluta repellendus corrupti laboriosam quia similique?
-                        </div>
-                        <hr />
-                        <div class="card-footer flex-around">
-                          <div class="cta-btns">
-                            <a href="#"><button class="btn btn-def btn-md"><i class="fas fa-shopping-cart"></i><span>Add to cart</span></button></a>
-                          </div>
-                          <div class="card-icons flex-between w-40">
-                            <div class="cta-icons flex-center">
-                              <i class="far fa-heart"></i>
-                            </div>
-                            <div class="cta-icons flex-center">
-                              <i class="fas fa-share-alt"></i>
-                            </div>
-                          </div>
+                        <div class="cta-icons flex-center">
+                          <i class="fas fa-share-alt"></i>
                         </div>
                       </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="code-snippet">
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-dynamic%2522%253E%250A%2509%253Cimg%2520src%253D%2522---------your%2520URL%2520here---------%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522pos-ab%2520card-badge%2520card-badge-left%2520top-left-pos%2522%253Einformation%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Ff1Wing.jpg%2522%2520alt%253D%2522vertical%2520card%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-title%2520flex-col%2522%253E%250A%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253EText%25201%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cs%253EText%25202%253C%252Fs%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-brief%2522%253EYour%2520description%2520here%253C%252Fdiv%253E%250A%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520flex-around%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cbutton%2520class%253D%2522btn%2520btn-def%2520btn-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2520flex-between%2520w-40%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-icons%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-icons%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
                     style="
                       min-height: 200px;
                       border: 0;
@@ -308,49 +339,56 @@
               <section class="main-section">
                 <h2>Vertical Card With Dismiss</h2>
                 <p>
-                  Image can be made responsive by using the
-                  <code>img-dynamic</code> class in the parent element.
-                  <br />
+                  Dismiss element is provided for the user to be able to dismiss
+                  the card <br />
                 </p>
                 <div class="example">
-                    <div class="card">
-                        <div
-                            class="pos-ab card-badge card-badge-right top-right-pos"
-                          >
-                          <i class="far fa-times-circle icon"></i>
-                          </div>
-                        <div class="card-img">
-                            <img src="../../assets/f1Wing.jpg" alt="vertical card" />
+                  <div class="card">
+                    <div
+                      class="pos-ab card-badge card-badge-right top-right-pos"
+                    >
+                      <i class="far fa-times-circle icon"></i>
+                    </div>
+                    <div class="card-img">
+                      <img src="../../assets/f1Wing.jpg" alt="vertical card" />
+                    </div>
+                    <div class="card-title flex-col">
+                      <h2>F1 Rear Wing</h2>
+                      <p>₹43,22,999/-</p>
+                      <s>₹65,50,000/-</s>
+                    </div>
+                    <div class="card-brief">
+                      This is a 2022 spec wing, found around the corner of some
+                      road in Brackley. Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Non inventore esse nostrum dolorum, vero
+                      doloremque eveniet dolor eaque, sed nihil ad, adipisci
+                      expedita dolore soluta repellendus corrupti laboriosam
+                      quia similique?
+                    </div>
+                    <hr />
+                    <div class="card-footer flex-around">
+                      <div class="cta-btns">
+                        <a href="#"
+                          ><button class="btn btn-def btn-md">
+                            <i class="fas fa-shopping-cart"></i
+                            ><span>Add to cart</span>
+                          </button></a
+                        >
+                      </div>
+                      <div class="card-icons flex-between w-40">
+                        <div class="cta-icons flex-center">
+                          <i class="far fa-heart"></i>
                         </div>
-                        <div class="card-title flex-col">
-                          <h2>F1 Rear Wing</h2>
-                          <p>₹43,22,999/-</p>
-                          <s>₹65,50,000/-</s>
-                        </div>
-                        <div class="card-brief">
-                          This is a 2022 spec wing, found around the corner of some road in
-                          Brackley.
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore esse nostrum dolorum, vero doloremque eveniet dolor eaque, sed nihil ad, adipisci expedita dolore soluta repellendus corrupti laboriosam quia similique?
-                        </div>
-                        <hr />
-                        <div class="card-footer flex-around">
-                          <div class="cta-btns">
-                            <a href="#"><button class="btn btn-def btn-md"><i class="fas fa-shopping-cart"></i><span>Add to cart</span></button></a>
-                          </div>
-                          <div class="card-icons flex-between w-40">
-                            <div class="cta-icons flex-center">
-                              <i class="far fa-heart"></i>
-                            </div>
-                            <div class="cta-icons flex-center">
-                              <i class="fas fa-share-alt"></i>
-                            </div>
-                          </div>
+                        <div class="cta-icons flex-center">
+                          <i class="fas fa-share-alt"></i>
                         </div>
                       </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="code-snippet">
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-dynamic%2522%253E%250A%2509%253Cimg%2520src%253D%2522---------your%2520URL%2520here---------%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522pos-ab%2520card-badge%2520card-badge-right%2520top-right-pos%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Ff1Wing.jpg%2522%2520alt%253D%2522vertical%2520card%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-title%2520flex-col%2522%253E%250A%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253EText%25201%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cs%253EText%25202%253C%252Fs%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-brief%2522%253EYour%2520decription%2520here%253C%252Fdiv%253E%250A%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520flex-around%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cbutton%2520class%253D%2522btn%2520btn-def%2520btn-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2520flex-between%2520w-40%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-icons%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-icons%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
                     style="
                       min-height: 200px;
                       border: 0;
@@ -365,44 +403,50 @@
               <section class="main-section">
                 <h2>Vertical Card With Text Overlay</h2>
                 <p>
-                  Image can be made responsive by using the
-                  <code>img-dynamic</code> class in the parent element.
-                  <br />
+                  Title and text is overlayed on the image in the card. <br />
                 </p>
                 <div class="example">
-                    <div class="card">
-                        <div class="card-img">
-                            <img src="../../assets/f1Wing.jpg" alt="vertical card" />
-                            <div class="card-title flex-col pos-ab brief-overlay">
-                              <h2>F1 Rear Wing</h2>
-                              <p>₹43,22,999/-</p>
-                              <s>₹65,50,000/-</s>
-                            </div>
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="../../assets/f1Wing.jpg" alt="vertical card" />
+                      <div class="card-title flex-col pos-ab brief-overlay">
+                        <h2>F1 Rear Wing</h2>
+                        <p>₹43,22,999/-</p>
+                        <s>₹65,50,000/-</s>
+                      </div>
+                    </div>
+                    <div class="card-brief">
+                      This is a 2022 spec wing, found around the corner of some
+                      road in Brackley. Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Non inventore esse nostrum dolorum, vero
+                      doloremque eveniet dolor eaque, sed nihil ad, adipisci
+                      expedita dolore soluta repellendus corrupti laboriosam
+                      quia similique?
+                    </div>
+                    <hr />
+                    <div class="card-footer flex-around">
+                      <div class="cta-btns">
+                        <a href="#"
+                          ><button class="btn btn-def btn-md">
+                            <i class="fas fa-shopping-cart"></i
+                            ><span>Add to cart</span>
+                          </button></a
+                        >
+                      </div>
+                      <div class="card-icons flex-between w-40">
+                        <div class="cta-icons flex-center">
+                          <i class="far fa-heart"></i>
                         </div>
-                        <div class="card-brief">
-                          This is a 2022 spec wing, found around the corner of some road in
-                          Brackley.
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore esse nostrum dolorum, vero doloremque eveniet dolor eaque, sed nihil ad, adipisci expedita dolore soluta repellendus corrupti laboriosam quia similique?
-                        </div>
-                        <hr />
-                        <div class="card-footer flex-around">
-                          <div class="cta-btns">
-                            <a href="#"><button class="btn btn-def btn-md"><i class="fas fa-shopping-cart"></i><span>Add to cart</span></button></a>
-                          </div>
-                          <div class="card-icons flex-between w-40">
-                            <div class="cta-icons flex-center">
-                              <i class="far fa-heart"></i>
-                            </div>
-                            <div class="cta-icons flex-center">
-                              <i class="fas fa-share-alt"></i>
-                            </div>
-                          </div>
+                        <div class="cta-icons flex-center">
+                          <i class="fas fa-share-alt"></i>
                         </div>
                       </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="code-snippet">
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-dynamic%2522%253E%250A%2509%253Cimg%2520src%253D%2522---------your%2520URL%2520here---------%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Ff1Wing.jpg%2522%2520alt%253D%2522vertical%2520card%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520flex-col%2520pos-ab%2520brief-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EText%25201%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cs%253EText%25202%253C%252Fs%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-brief%2522%253EYour%2520description%2520here%253C%252Fdiv%253E%250A%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520flex-around%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cbutton%2520class%253D%2522btn%2520btn-def%2520btn-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2520flex-between%2520w-40%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-icons%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-icons%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
                     style="
                       min-height: 200px;
                       border: 0;
