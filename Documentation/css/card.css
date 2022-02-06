@@ -12,6 +12,5 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  gap: 16px;
-  padding: 16px 0;
+  padding: 1rem 0;
 }
