@@ -18,9 +18,9 @@
   margin: 0 auto;
 }
 
-.logo {
+.nav-logo {
   font-weight: var(--weight-bold);
-  font-size: var(--size-13);
+  font-size: var(--size-11);
   color: white;
 }
 
