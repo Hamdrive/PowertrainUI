@@ -22,7 +22,7 @@
     background-color: var(--primary-extra-light-color);
     padding: var(--size-5);
     border-radius: 10px;
-
+    width: 100%;
 }
 
 .submit-btn{
