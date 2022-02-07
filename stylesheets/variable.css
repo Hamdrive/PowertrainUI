@@ -52,6 +52,7 @@
   --input-active: #e6e6e6;
   --input-success: #047857;
   --input-fail: #bc1c1c;
+  --input-required: #dc2626;
 
   /* Card */
   --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);

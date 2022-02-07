@@ -3,6 +3,11 @@
   width: 100%;
 }
 
+.input-section{
+  margin: var(--size-5) 0;
+  text-align: left;
+}
+
 .input-label {
   margin-bottom: var(--size-5);
 }
@@ -78,4 +83,27 @@
 .input-validation .validation-icon {
   font-size: inherit;
   margin-right: var(--size-3);
+}
+
+.form-input{
+  margin: var(--size-9) 0;
+  font-weight: var(--weight-semibold);
+  font-size: var(--size-9);
+}
+
+.input-required::after{
+  content: "*";
+  font-size: var(--size-11);
+  font-weight: var(--weight-semibold);
+  color: var(--input-required);
+}
+
+@media screen and (min-width: 769px) {
+  .form-input{
+    font-size: var(--size-10);
+  }
+  
+  .input-required::after{
+    font-size: var(--size-13);
+  }
 }
