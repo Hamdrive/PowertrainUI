@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/input.css" />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0ae1aebe6f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PowerTrainUI</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header pos-st top-left-pos py-md">
+        <header class="max-width-1200 px-md dis-flex mx-auto">
+          <div class="logo">
+            <a href="../../index.html">PowertrainUI</a>
+          </div>
+          <button class="hamburger-menu"><i class="fas fa-bars"></i></button>
+          <nav class="navbar mobile-navbar flex-center flex-grow-1">
+            <button class="nav-close-btn">
+              <i class="fas fa-2x fa-times"></i>
+            </button>
+            <ul class="ml-2 menu h-100">
+              <li class="menu-list">
+                <a href="../../index.html" class="menu-item btn btn-md mx-1"
+                  >Home</a
+                >
+              </li>
+              <li class="menu-list">
+                <a href="./alert.html" class="menu-item btn btn-md mx-1 active"
+                  >Docs</a
+                >
+              </li>
+              <li class="menu-list">
+                <a
+                  href="https://github.com/Hamdrive"
+                  class="menu-item btn btn-md mx-1"
+                  >Github</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <div class="py-md">
+        <main class="min-vh-85 mx-auto px-lg main">
+          <aside class="aside">
+            <nav class="aside-nav">
+              <ul class="px-sm">
+                <li class="mobile-menu dis-flex">
+                  Menu
+                  <div class="mobile-menu-arrow">
+                    <i class="fas fa-chevron-right"></i>
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./getstarted.html">Get Started</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./alert.html">Alert</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./avatar.html">Avatar</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./badge.html">Badge</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./button.html">Button</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./card.html">Card</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./image.html">Image</a>
+                </li>
+                <li class="my-1 aside-item aside-active">
+                  <a class="h4" href="./input.html">Input</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./navigation.html">Navigation</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./snackbar.html">Snackbar</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./typography.html">Typography</a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+          <section class="content-doc">
+            <section class="max-width-1200 mx-auto h-100">
+              <header class="main-section-header">
+                <h1>Input</h1>
+              </header>
+              <section class="main-section">
+                <h2>Introduction</h2>
+                <p>
+                  Inputs allow website users to enter or share their
+                  information, across many usecases. <br />
+                  Primarily used for Sign-up/Login Pages, Feedbacks and for
+                  general user inputs <br />
+                  When using Powertrain's input elements inside a form, make
+                  sure to add the <code>novalidate</code> attribute to prevent
+                  default form properties from applying <br />
+                  By default, input fields take width of <code>100%</code> .
+                  <br />
+                </p>
+              </section>
+              <section class="main-section">
+                <h2>Sign-up/Login Form</h2>
+                <p>
+                  Powertrain offers a simple input form to verify user
+                  credentials <br />
+                  Each field can also have it's own validation built in to meet
+                  your website's criterias. <br />
+                  Use the <code>input-required</code> class to show required
+                  input. Don't forget to add <code>required</code> attribute to
+                  your input element as well. <br />
+                </p>
+                <div class="example">
+                  <form class="form" novalidate>
+                    <div class="input-section">
+                      <label for="input" class="form-input input-required"
+                        >Username</label
+                      >
+                      <input
+                        type="text"
+                        class="input-corner input-md border-2"
+                        name="input"
+                        id="input"
+                        placeholder="Aloo"
+                        required
+                      />
+                      <div
+                        class="input-validation input-validation-md input-validation-success validate"
+                      >
+                        <i class="fas fa-check-circle validation-icon"></i>Looks
+                        good!
+                      </div>
+                      <div
+                        class="input-validation input-validation-md input-validation-fail validate"
+                      >
+                        <i class="fas fa-times-circle validation-icon"></i>Try
+                        something creative
+                      </div>
+                    </div>
+                    <div class="input-section">
+                      <label for="input" class="form-input input-required"
+                        >Password</label
+                      >
+                      <input
+                        type="password"
+                        class="input-corner input-md border-2"
+                        name="input"
+                        id="input"
+                        placeholder="Bhallo"
+                        required
+                      />
+                      <div
+                        class="input-validation input-validation-md input-validation-success validate"
+                      >
+                        <i class="fas fa-check-circle validation-icon"></i>Looks
+                        good!
+                      </div>
+                      <div
+                        class="input-validation input-validation-md input-validation-fail validate"
+                      >
+                        <i class="fas fa-times-circle validation-icon"></i>Use a
+                        better password
+                      </div>
+                    </div>
+                    <button class="btn btn-def btn-md submit-btn" type="submit">
+                      Sign-up / Login
+                    </button>
+                  </form>
+                </div>
+                <div class="code-snippet">
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-section%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522input%2522%2520class%253D%2522form-input%2520input-required%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-corner%2520input-md%2520border-2%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522input%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-section%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522input%2522%2520class%253D%2522form-input%2520input-required%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-corner%2520input-md%2520border-2%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522input%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-def%2520btn-md%2520submit-btn%2522%2520type%253D%2522submit%2522%253E%250A%2520%2520%2520%2520Sign-up%2520%252F%2520Login%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fform%253E%250A"
+                    style="
+                      min-height: 200px;
+                      border: 0;
+                      transform: scale(1);
+                      overflow: scroll;
+                    "
+                    sandbox="allow-scripts allow-same-origin"
+                  >
+                  </iframe>
+                </div>
+              </section>
+              <section class="main-section">
+                <h2>Generic Form</h2>
+                <p>
+                  There are multiple inputs available for user's to interact
+                  with, based on requirement. <br />
+                  In this generic form, you can find all the various types of
+                  inputs supported by Powertrain. <br />
+                  Types: <code>Text input</code> , <code>Email input</code> ,
+                  <code>Password input</code> , <code>Text field</code> ,
+                  <code>Radio buttons</code> , <code>Checkboxes</code> &
+                  <code>Dropdown menu</code> . <br />
+                  Each type of input also comes with its own validation styles.
+                  <br />
+                </p>
+                <div class="example">
+                  <form class="form" novalidate>
+                    <div class="input-section">
+                      <label for="input" class="form-input input-required"
+                        >Enter username</label
+                      >
+                      <input
+                        type="text"
+                        class="input-corner input-md border-2"
+                        name="input"
+                        id="input"
+                        placeholder="Aloo"
+                        required
+                      />
+                      <div
+                        class="input-validation input-validation-md input-validation-success validate"
+                      >
+                        <i class="fas fa-check-circle validation-icon"></i>Looks
+                        good!
+                      </div>
+                      <div
+                        class="input-validation input-validation-md input-validation-fail validate"
+                      >
+                        <i class="fas fa-times-circle validation-icon"></i>Try
+                        something creative
+                      </div>
+                    </div>
+                    <div class="input-section">
+                      <label for="input" class="form-input input-required"
+                        >Email ID</label
+                      >
+                      <input
+                        type="email"
+                        class="input-corner input-md border-2"
+                        name="input"
+                        id="input"
+                        placeholder="example@mail.com"
+                        required
+                      />
+                      <div
+                        class="input-validation input-validation-md input-validation-success validate"
+                      >
+                        <i class="fas fa-check-circle validation-icon"></i>Looks
+                        good!
+                      </div>
+                      <div
+                        class="input-validation input-validation-md input-validation-fail validate"
+                      >
+                        <i class="fas fa-times-circle validation-icon"></i>Enter
+                        correct email ID
+                      </div>
+                    </div>
+                    <div class="input-section">
+                      <label for="input" class="form-input input-required"
+                        >Password</label
+                      >
+                      <input
+                        type="password"
+                        class="input-corner input-md border-2"
+                        name="input"
+                        id="input"
+                        placeholder="Bhallo"
+                        required
+                      />
+                      <div
+                        class="input-validation input-validation-md input-validation-success validate"
+                      >
+                        <i class="fas fa-check-circle validation-icon"></i>Looks
+                        good!
+                      </div>
+                      <div
+                        class="input-validation input-validation-md input-validation-fail validate"
+                      >
+                        <i class="fas fa-times-circle validation-icon"></i>Try
+                        something creative
+                      </div>
+                    </div>
+                    <div class="input-section input-textarea">
+                      <label for="textarea" class="form-input"
+                        >Comments, if any</label
+                      >
+                      <textarea
+                        name="textarea"
+                        class="input-corner input-md border-2"
+                        id="textarea"
+                      ></textarea>
+                    </div>
+                    <div class="input-section input-dropdown">
+                      <label for="currency-select" class="form-input"
+                        >Preferred currency:</label
+                      >
+
+                      <select
+                        name="currency"
+                        id="currency-select"
+                        class="dropdown"
+                      >
+                        <option value="INR" selected>INR</option>
+                        <option value="USD">USD</option>
+                        <option value="AUD">AUD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">EUR</option>
+                        <option value="AED">AED</option>
+                      </select>
+                    </div>
+                    <div class="input-section">
+                      <label class="form-input"
+                        >How would you like to opt in to our newsletter?</label
+                      >
+                      <div class="radio-section">
+                        <div>
+                          <input
+                            type="radio"
+                            name="contact"
+                            id="contact"
+                            value="Email"
+                          />
+                          <label for="contact">Email</label>
+                        </div>
+                        <div>
+                          <input
+                            type="radio"
+                            name="contact"
+                            id="sms"
+                            value="SMS"
+                          />
+                          <label for="sms">SMS</label>
+                        </div>
+                        <div>
+                          <input
+                            type="radio"
+                            name="contact"
+                            id="post"
+                            value="Post"
+                          />
+                          <label for="post">Post</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="input-checkbox">
+                      <div>
+                        <input
+                          type="checkbox"
+                          class="checkbox"
+                          name="agree"
+                          id="input"
+                        />
+                        <label for="input" class="form-input input-required"
+                          >I agree to the Terms & Conditions</label
+                        >
+                        <div
+                          class="input-validation input-validation-md input-validation-success validate"
+                        >
+                          <i class="fas fa-check-circle validation-icon"></i
+                          >Looks good!
+                        </div>
+                        <div
+                          class="input-validation input-validation-md input-validation-fail validate"
+                        >
+                          <i class="fas fa-times-circle validation-icon"></i
+                          >Please agree to the above
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-def btn-md submit-btn" type="submit">
+                      Sign-up / Login
+                    </button>
+                  </form>
+                </div>
+                <div class="code-snippet">
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%2520novalidate%253E%250A%2520%2520%250A%2520%2520%250A%2520%2520%253C%21--Default%2520text%2520input--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-section%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522input%2522%2520class%253D%2522form-input%2520input-required%2522%253EEnter%2520username%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-corner%2520input-md%2520border-2%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Aloo%2522%250A%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-success%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520validation-icon%2522%253E%253C%252Fi%253ELooks%2520good%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-fail%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520validation-icon%2522%253E%253C%252Fi%253ETry%2520something%2520creative%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%250A%2520%2520%253C%21--Email%2520type%2520input--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-section%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522input%2522%2520class%253D%2522form-input%2520input-required%2522%253EEmail%2520ID%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-corner%2520input-md%2520border-2%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522example%2540mail.com%2522%250A%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-success%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520validation-icon%2522%253E%253C%252Fi%253ELooks%2520good%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-fail%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520validation-icon%2522%253E%253C%252Fi%253EEnter%2520correct%2520email%2520ID%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%250A%2520%2520%253C%21--Password%2520type%2520input--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-section%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522input%2522%2520class%253D%2522form-input%2520input-required%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-corner%2520input-md%2520border-2%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Bhallo%2522%250A%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-success%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520validation-icon%2522%253E%253C%252Fi%253ELooks%2520good%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-fail%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-"
+                    style="
+                      min-height: 200px;
+                      border: 0;
+                      transform: scale(1);
+                      overflow: scroll;
+                    "
+                    sandbox="allow-scripts allow-same-origin"
+                  >
+                  </iframe>
+                </div>
+                <div class="code-snippet">
+                  <h3>JavaScript code</h3>
+
+                  <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=const%2520forms%2520%253D%2520document.querySelectorAll%28%2522.form%2522%29%253B%250Aconst%2520failMessage%2520%253D%2520document.querySelectorAll%28%2522.input-validation-fail%2522%29%253B%250A%250Aforms.forEach%28%28form%29%2520%253D%253E%250A%2520%2520form.addEventListener%28%2522submit%2522%252C%2520%28e%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520if%2520%28%21form.checkValidity%28%29%29%2520%257B%250A%2520%2520%2520%2520%2520%2520e.preventDefault%28%29%253B%250A%2520%2520%2520%2520%2520%2520failMessage.forEach%28%28fail%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520fail.classList.remove%28%2522validate%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%257D%29%253B%250A%2520%2520%2520%2520%257D%250A%2520%2520%257D%29%250A%29%253B%250A"
+                    style="
+                      min-height: 200px;
+                      border: 0;
+                      transform: scale(1);
+                      overflow: scroll;
+                    "
+                    sandbox="allow-scripts allow-same-origin"
+                  >
+                  </iframe>
+                </div>
+              </section>
+            </section>
+          </section>
+        </main>
+      </div>
+      <div class="footer footer-doc py-md">
+        <footer
+          class="max-width-1200 grid grid-cols-2 gap-2 grid-ver-center mx-auto px-lg"
+        >
+          <div class="footer-info">
+            <div class="footer-social py-sm">Socials</div>
+            <ul class="footer-social-icons dis-flex gap-2 py-sm">
+              <li>
+                <a href="https://github.com/Hamdrive"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/itsHamhere"
+                  ><i class="fab fa-twitter-square"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/hamza-husein/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://peerlist.io/hamza"
+                  ><i class="fas fa-parking"></i
+                ></a>
+              </li>
+            </ul>
+            <div class="footer-outro py-sm">
+              Designed with 💚 by <strong>Hamza Husein</strong>
+            </div>
+          </div>
+          <div class="footer-brief">
+            <div class="py-sm">
+              Illustrations by
+              <u><a href="https://storyset.com">Storyset</a></u>
+            </div>
+            <div class="py-sm">Version 1.0.0</div>
+            <div class="py-sm">© PowertrainUI, 2022 All rights reserved.</div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="../../index.js"></script>
+    <script src="../../sidebar.js"></script>
+    <script src="../js/form.js"></script>
+  </body>
+</html>

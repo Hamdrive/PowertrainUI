@@ -3,6 +3,12 @@
   width: 100%;
 }
 
+.input-section, .input-checkbox {
+  margin: var(--size-9) 0;
+  text-align: left;
+}
+
+/* Input basic styles */
 .input-label {
   margin-bottom: var(--size-5);
 }
@@ -40,8 +46,9 @@
   background-color: var(--input-active);
 }
 
+/* Validation styles */
 .input-validation {
-  display: inline-flex;
+  display: block;
   align-items: center;
   font-weight: var(--weight-semibold);
   margin-top: var(--size-2);
@@ -78,4 +85,105 @@
 .input-validation .validation-icon {
   font-size: inherit;
   margin-right: var(--size-3);
+}
+
+.form-input {
+  margin: var(--size-9) 0;
+  font-weight: var(--weight-semibold);
+  font-size: var(--size-9);
+}
+
+.input-required::after {
+  content: "*";
+  font-size: var(--size-11);
+  font-weight: var(--weight-semibold);
+  color: var(--input-required);
+}
+
+.input-section input:valid ~ .input-validation-success,
+.input-checkbox input[type="checkbox"]:checked ~ .input-validation-success {
+  display: block;
+}
+
+.input-section input:valid ~ .input-validation-fail,
+.input-checkbox input[type="checkbox"]:checked ~ .input-validation-fail,
+.validate {
+  display: none;
+}
+
+/* Radio input */
+.radio-section {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.radio-section div {
+  display: flex;
+  align-items: center;
+  margin: 0 var(--size-7);
+}
+
+.radio-section label {
+  margin-right: var(--size-11);
+  cursor: pointer;
+}
+
+.radio-section input {
+  width: auto;
+  margin-right: var(--size-5);
+  cursor: pointer;
+}
+
+/* Checkbox input */
+.input-checkbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: fit-content;
+}
+
+.input-checkbox input[type="checkbox"] {
+  width: auto;
+  margin-right: var(--size-9);
+  cursor: pointer;
+}
+
+.input-checkbox .checkbox {
+  transform: scale(1.5);
+}
+
+/* Dropdown input */
+.dropdown {
+  padding: var(--size-5);
+  font-size: var(--size-9);
+  font-family: var(--primary-font-family);
+  font-weight: var(--weight-normal);
+  border: 2px solid var(--color-grey);
+  border-radius: 5px;
+}
+
+/* Textarea input */
+.input-textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-textarea textarea {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+@media screen and (min-width: 769px) {
+  .form-input {
+    font-size: var(--size-10);
+  }
+
+  .input-required::after {
+    font-size: var(--size-13);
+  }
 }
