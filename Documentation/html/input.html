@@ -116,10 +116,11 @@
                   information, across many usecases. <br />
                   Primarily used for Sign-up/Login Pages, Feedbacks and for
                   general user inputs <br />
-                  When using Powertrain's input elements inside a form, make sure to add the <code>novalidate</code> attribute to prevent default form properties from applying <br />
+                  When using Powertrain's input elements inside a form, make
+                  sure to add the <code>novalidate</code> attribute to prevent
+                  default form properties from applying <br />
                   By default, input fields take width of <code>100%</code> .
                   <br />
-                  
                 </p>
               </section>
               <section class="main-section">
@@ -217,7 +218,6 @@
                   <code>Dropdown menu</code> . <br />
                   Each type of input also comes with its own validation styles.
                   <br />
-
                 </p>
                 <div class="example">
                   <form class="form" novalidate>
@@ -325,7 +325,7 @@
                       </select>
                     </div>
                     <div class="input-section">
-                      <label class="form-input input-required"
+                      <label class="form-input"
                         >How would you like to opt in to our newsletter?</label
                       >
                       <div class="radio-section">
@@ -333,67 +333,54 @@
                           <input
                             type="radio"
                             name="contact"
-                            id="input"
+                            id="contact"
                             value="Email"
                           />
-                          <label for="input" class="">Email</label>
+                          <label for="contact">Email</label>
                         </div>
                         <div>
                           <input
                             type="radio"
                             name="contact"
-                            id="input"
+                            id="sms"
                             value="SMS"
                           />
-                          <label for="input" class="">SMS</label>
+                          <label for="sms">SMS</label>
                         </div>
                         <div>
                           <input
                             type="radio"
                             name="contact"
-                            id="input"
+                            id="post"
                             value="Post"
                           />
-                          <label for="input" class="">Post</label>
+                          <label for="post">Post</label>
                         </div>
                       </div>
-                      <div
-                        class="input-validation input-validation-md input-validation-success validate"
-                      >
-                        <i class="fas fa-check-circle validation-icon"></i>Looks
-                        good!
-                      </div>
-                      <div
-                        class="input-validation input-validation-md input-validation-fail validate"
-                      >
-                        <i class="fas fa-times-circle validation-icon"></i
-                        >Choose one option
-                      </div>
                     </div>
-                    <div class="input-section input-checkbox">
+                    <div class="input-checkbox">
                       <div>
                         <input
                           type="checkbox"
                           class="checkbox"
                           name="agree"
                           id="input"
-                          required
                         />
                         <label for="input" class="form-input input-required"
                           >I agree to the Terms & Conditions</label
                         >
-                      </div>
-                      <div
-                        class="input-validation input-validation-md input-validation-success validate"
-                      >
-                        <i class="fas fa-check-circle validation-icon"></i>Looks
-                        good!
-                      </div>
-                      <div
-                        class="input-validation input-validation-md input-validation-fail validate"
-                      >
-                        <i class="fas fa-times-circle validation-icon"></i
-                        >Please agree to the above
+                        <div
+                          class="input-validation input-validation-md input-validation-success validate"
+                        >
+                          <i class="fas fa-check-circle validation-icon"></i
+                          >Looks good!
+                        </div>
+                        <div
+                          class="input-validation input-validation-md input-validation-fail validate"
+                        >
+                          <i class="fas fa-times-circle validation-icon"></i
+                          >Please agree to the above
+                        </div>
                       </div>
                     </div>
                     <button class="btn btn-def btn-md submit-btn" type="submit">
@@ -403,7 +390,22 @@
                 </div>
                 <div class="code-snippet">
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%2520novalidate%253E%250A%2520%2520%250A%2520%2520%253C%21--Default%2520text%2520input--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-section%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522input%2522%2520class%253D%2522form-input%2520input-required%2522%253EEnter%2520username%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-corner%2520input-md%2520border-2%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Aloo%2522%250A%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-success%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520validation-icon%2522%253E%253C%252Fi%253ELooks%2520good%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-fail%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520validation-icon%2522%253E%253C%252Fi%253ETry%2520something%2520creative%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%253C%21--Email%2520type%2520input--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-section%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522input%2522%2520class%253D%2522form-input%2520input-required%2522%253EEmail%2520ID%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-corner%2520input-md%2520border-2%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522example%2540mail.com%2522%250A%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-success%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520validation-icon%2522%253E%253C%252Fi%253ELooks%2520good%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-fail%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520validation-icon%2522%253E%253C%252Fi%253EEnter%2520correct%2520email%2520ID%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%253C%21--Password%2520type%2520input--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-section%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522input%2522%2520class%253D%2522form-input%2520input-required%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-corner%2520input-md%2520border-2%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Bhallo%2522%250A%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-success%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520validation-icon%2522%253E%253C%252Fi%253ELooks%2520good%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-fail%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520va"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%2520novalidate%253E%250A%2520%2520%250A%2520%2520%250A%2520%2520%253C%21--Default%2520text%2520input--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-section%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522input%2522%2520class%253D%2522form-input%2520input-required%2522%253EEnter%2520username%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-corner%2520input-md%2520border-2%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Aloo%2522%250A%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-success%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520validation-icon%2522%253E%253C%252Fi%253ELooks%2520good%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-fail%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520validation-icon%2522%253E%253C%252Fi%253ETry%2520something%2520creative%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%250A%2520%2520%253C%21--Email%2520type%2520input--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-section%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522input%2522%2520class%253D%2522form-input%2520input-required%2522%253EEmail%2520ID%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-corner%2520input-md%2520border-2%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522example%2540mail.com%2522%250A%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-success%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520validation-icon%2522%253E%253C%252Fi%253ELooks%2520good%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-fail%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520validation-icon%2522%253E%253C%252Fi%253EEnter%2520correct%2520email%2520ID%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%250A%2520%2520%253C%21--Password%2520type%2520input--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-section%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522input%2522%2520class%253D%2522form-input%2520input-required%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-corner%2520input-md%2520border-2%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Bhallo%2522%250A%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-success%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520validation-icon%2522%253E%253C%252Fi%253ELooks%2520good%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-validation%2520input-validation-md%2520input-validation-fail%2520validate%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-"
+                    style="
+                      min-height: 200px;
+                      border: 0;
+                      transform: scale(1);
+                      overflow: scroll;
+                    "
+                    sandbox="allow-scripts allow-same-origin"
+                  >
+                  </iframe>
+                </div>
+                <div class="code-snippet">
+                  <h3>JavaScript code</h3>
+
+                  <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=const%2520forms%2520%253D%2520document.querySelectorAll%28%2522.form%2522%29%253B%250Aconst%2520failMessage%2520%253D%2520document.querySelectorAll%28%2522.input-validation-fail%2522%29%253B%250A%250Aforms.forEach%28%28form%29%2520%253D%253E%250A%2520%2520form.addEventListener%28%2522submit%2522%252C%2520%28e%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520if%2520%28%21form.checkValidity%28%29%29%2520%257B%250A%2520%2520%2520%2520%2520%2520e.preventDefault%28%29%253B%250A%2520%2520%2520%2520%2520%2520failMessage.forEach%28%28fail%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520fail.classList.remove%28%2522validate%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%257D%29%253B%250A%2520%2520%2520%2520%257D%250A%2520%2520%257D%29%250A%29%253B%250A"
                     style="
                       min-height: 200px;
                       border: 0;
