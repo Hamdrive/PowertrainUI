@@ -240,3 +240,8 @@
 .invisible {
   visibility: hidden;
 }
+
+/* Overflow */
+.ov-hidden{
+  overflow: hidden;
+}
