@@ -3,10 +3,6 @@
   position: sticky;
   background-color: var(--primary-light-color);
   z-index: 9999;
-  position: sticky;
-  top: 0;
-  left: 0;
-  padding: var(--size-9) 0;
 }
 
 .nav-main {
