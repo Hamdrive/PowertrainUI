@@ -69,7 +69,7 @@ input {
 }
 
 /* fa-icons */
-[class^="f"] {
+[class^="fa"] {
   font-size: var(--size-10);
   color: inherit;
 }
