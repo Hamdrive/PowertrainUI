@@ -47,3 +47,8 @@ PowertrainUI comprises of the following components. Note that new components/fea
 
 </ul>
 
+--
+
+## Documentation Website Overview
+
+![powertrainui demo gif](assets/gif/fueledup-demo.gif)
