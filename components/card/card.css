@@ -24,7 +24,7 @@
 
 .card-img {
   width: 100%;
-  height: 200px;
+  height: max-content;
   position: relative;
 }
 
@@ -32,7 +32,7 @@
 .card-img img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .card-badge {
@@ -69,13 +69,26 @@
   font-size: var(--size-7);
 }
 
-.card-title.brief-overlay {
+.brief-overlay {
   bottom: 0;
-  color: var(--color-white);
   height: fit-content;
   width: 100%;
+  height: 100%;
   background-color: var(--primary-extra-light-color);
-  padding: 0 var(--size-5);
+  z-index: 3;
+}
+
+.overlay-text {
+  color: var(---color-black);
+  top: 35%;
+  left: 0%;
+  display: inline;
+  font-size: var(--size-19);
+  transform: rotate(55deg);
+}
+
+.op-30 {
+  opacity: 30%;
 }
 
 .card-head{
@@ -101,7 +114,6 @@
   height: 100%;
   padding: var(--size-5) var(--size-9);
   font-weight: var(--weight-medium);
-  /* word-wrap: break-word; */
 }
 
 .card-footer {
@@ -177,5 +189,11 @@
 
   .card-icons {
     width: 40%;
+  }
+
+  .overlay-text {
+    top: 35%;
+    left: -5%;
+    transform: rotate(60deg);
   }
 }
