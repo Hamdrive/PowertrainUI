@@ -113,6 +113,14 @@
   flex-grow: 1;
 }
 
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-row-end {
+  justify-content: flex-end;
+}
+
 /* Grid */
 .grid {
   display: grid;
@@ -242,6 +250,6 @@
 }
 
 /* Overflow */
-.ov-hidden{
+.ov-hidden {
   overflow: hidden;
 }

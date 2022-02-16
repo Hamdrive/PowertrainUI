@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/snackbar.css" />
+    <link rel="stylesheet" href="../css/rating.css" />
     <link
       rel="shortcut icon"
       href="../../assets/favicon.ico"
@@ -17,7 +17,7 @@
     <script
       src="https://kit.fontawesome.com/0ae1aebe6f.js"
       crossorigin="anonymous"></script>
-    <title>PowertrainUI | Snackbar</title>
+    <title>PowertrainUI | Rating</title>
   </head>
   <body>
     <div class="wrapper">
@@ -38,9 +38,7 @@
                 </a>
               </li>
               <li class="menu-list">
-                <a href="./alert.html" class="menu-item btn btn-md mx-1 active">
-                  Docs
-                </a>
+                <a href="#" class="menu-item btn btn-md mx-1 active">Docs</a>
               </li>
               <li class="menu-list">
                 <a
@@ -92,11 +90,11 @@
                 <li class="my-1 aside-item">
                   <a class="h4" href="./navigation.html">Navigation</a>
                 </li>
-                <li class="my-1 aside-item">
-                  <a class="h4" href="./rating.html">Rating</a>
-                </li>
                 <li class="my-1 aside-item aside-active">
-                  <a class="h4" href="#">Snackbar</a>
+                  <a class="h4" href="#">Rating</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./snackbar.html">Snackbar</a>
                 </li>
                 <li class="my-1 aside-item">
                   <a class="h4" href="./typography.html">Typography</a>
@@ -107,73 +105,83 @@
           <section class="content-doc">
             <section class="max-width-1200 mx-auto h-100">
               <header class="main-section-header">
-                <h1>Snackbar</h1>
+                <h1>Rating</h1>
               </header>
               <section class="main-section">
                 <h2>Introduction</h2>
                 <p>
-                  Snackbars provide brief messages about various processes at
-                  the bottom of the screen. These can range from simple messages
-                  to also having trigger buttons.
+                  Ratings provide insight about various aspects of your website,
+                  allowing your users to share their opinions about any item or
+                  service.
                   <br />
-                  The snackbars provided by PowertrainUI are responsive as well.
-                  <br />
+                  Users can select from a range of 1 to 5 stars.
                 </p>
               </section>
               <section class="main-section">
-                <h2>Types of Snackbar</h2>
+                <h2>Simple Rating</h2>
                 <p>
-                  There are two types of snackbars available with PowertrainUI:
-                  <code>baseline</code>
-                  &
-                  <code>leading</code>
-                  .
-                  <br />
-                  By default, the snackbars live at the bottom of the website.
-                  <br />
-                  Based on your requirement, you may position the snackbar
-                  either at the center or on the leftmost side of the screen
-                  using
-                  <code>btn-baseline</code>
-                  or
-                  <code>btn-leading</code>
-                  IDs respectively inside your buttons.
-                  <br />
+                  Use the
+                  <code>select-rating</code>
+                  class on your parent element.
                 </p>
                 <div class="example">
-                  <button class="btn btn-def btn-lg" id="btn-baseline">
-                    Baseline
-                  </button>
-                  <button class="btn btn-def btn-lg" id="btn-leading">
-                    Leading
-                  </button>
-                  <div class="baseline">
-                    <span>Whoops! Something went wrong there...</span>
-                    <section class="cta">
-                      <button>RETRY</button>
-                      <span class="snackbar-close-icon">
-                        <i class="fas fa-times"></i>
-                      </span>
-                    </section>
-                  </div>
-                  <div class="leading">
-                    <span>You've ordered 100 pizzas! Enjoy!</span>
-                    <section class="cta">
-                      <button>UNDO</button>
-                      <span class="snackbar-close-icon">
-                        <i class="fas fa-times"></i>
-                      </span>
-                    </section>
+                  <div
+                    class="select-rating flex-row flex-row-reverse flex-row-end">
+                    <input
+                      type="radio"
+                      name="rating"
+                      id="star1"
+                      class="hide"
+                      value="1" />
+                    <label for="star1" class="px-sm">
+                      <i class="fas fa-star"></i>
+                    </label>
+                    <input
+                      type="radio"
+                      name="rating"
+                      id="star2"
+                      class="hide"
+                      value="2" />
+                    <label for="star2" class="px-sm">
+                      <i class="fas fa-star"></i>
+                    </label>
+                    <input
+                      type="radio"
+                      name="rating"
+                      id="star3"
+                      class="hide"
+                      value="3" />
+                    <label for="star3" class="px-sm">
+                      <i class="fas fa-star"></i>
+                    </label>
+                    <input
+                      type="radio"
+                      name="rating"
+                      id="star4"
+                      class="hide"
+                      value="4" />
+                    <label for="star4" class="px-sm">
+                      <i class="fas fa-star"></i>
+                    </label>
+                    <input
+                      type="radio"
+                      name="rating"
+                      id="star5"
+                      class="hide"
+                      value="5" />
+                    <label for="star5" class="px-sm">
+                      <i class="fas fa-star"></i>
+                    </label>
                   </div>
                 </div>
                 <div class="code-snippet">
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253C%21--%2520Baseline%2520Snackbar%2520--%253E%250A%253Cbutton%2520class%253D%2522your%2520styling%2520classes%2520here%2522%2520id%253D%2522btn-baseline%2522%253E%250A%2520%2520Baseline%250A%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522baseline%2522%253E%250A%2520%2520%253Cspan%253EWhoops%21%2520Something%2520went%2520wrong%2520there...%253C%252Fspan%253E%250A%2520%2520%253Csection%2520class%253D%2522cta%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522snackbar-close-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fsection%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520Leading%2520Snackbar%2520--%253E%250A%253Cbutton%2520class%253D%2522your%2520styling%2520classes%2520here%2522%2520id%253D%2522btn-leading%2522%253E%250A%2520%2520Leading%250A%253C%252Fbutton%253E%250A%250A%253Cdiv%2520class%253D%2522leading%2522%253E%250A%2520%2520%253Cspan%253EYou%27ve%2520ordered%2520100%2520pizzas%21%2520Enjoy%21%253C%252Fspan%253E%250A%2520%2520%253Csection%2520class%253D%2522cta%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253EUNDO%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522snackbar-close-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fsection%253E%250A%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253C%21--%2520Simple%2520selectable%2520rating%2520component%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522select-rating%2520flex-row%2520flex-row-reverse%2520flex-row-end%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star1%2522%2520class%253D%2522hide%2522%2520value%253D%25221%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star1%2522%2520class%253D%2522px-sm%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star2%2522%2520class%253D%2522hide%2522%2520value%253D%25222%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star2%2522%2520class%253D%2522px-sm%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star3%2522%2520class%253D%2522hide%2522%2520value%253D%25223%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star3%2522%2520class%253D%2522px-sm%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star4%2522%2520class%253D%2522hide%2522%2520value%253D%25224%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star4%2522%2520class%253D%2522px-sm%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star5%2522%2520class%253D%2522hide%2522%2520value%253D%25225%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star5%2522%2520class%253D%2522px-sm%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A"
                     style="
                       min-height: 200px;
                       border: 0;
                       transform: scale(1);
-                      overflow: scroll;
+                      overflow: hidden;
                     "
                     sandbox="allow-scripts allow-same-origin"></iframe>
                 </div>
@@ -227,6 +235,5 @@
     </div>
     <script src="../../index.js"></script>
     <script src="../../sidebar.js"></script>
-    <script src="../js/snackbar.js"></script>
   </body>
 </html>

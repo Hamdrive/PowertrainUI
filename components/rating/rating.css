@@ -1,0 +1,13 @@
+.select-rating label {
+  color: var(--color-grey);
+  cursor: pointer;
+}
+
+.select-rating :checked ~ label {
+  color: var(--rating-selected);
+}
+
+.select-rating label:hover,
+.select-rating label:hover ~ label {
+  color: var(--rating-hover);
+}
