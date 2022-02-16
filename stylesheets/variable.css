@@ -54,6 +54,10 @@
   --input-fail: #bc1c1c;
   --input-required: #dc2626;
 
+  /* Rating colors */
+  --rating-hover: #fbbf24;
+  --rating-selected: #f59e0b;
+
   /* Card */
   --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 

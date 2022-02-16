@@ -1,0 +1,16 @@
+@import url("../../styles.css");
+@import url("../../stylesheets/navbar.css");
+@import url("../../stylesheets/footer.css");
+@import url("../../stylesheets/sidebar.css");
+@import url("./getstarted.css");
+@import url("../../components/rating/rating.css");
+
+.example {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--size-21);
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px;
+}
