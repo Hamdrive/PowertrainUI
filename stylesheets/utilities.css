@@ -28,6 +28,10 @@
   margin: 0 var(--size-9);
 }
 
+.mx-2 {
+  margin: 0 var(--size-13);
+}
+
 .my-sm {
   margin: var(--size-5) 0;
 }
@@ -69,6 +73,11 @@
 .dis-flex {
   display: flex;
 }
+
+.align-center {
+  align-items: center;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;

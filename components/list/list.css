@@ -1,0 +1,45 @@
+.list-reg {
+  list-style-type: none;
+}
+
+.list-bullet {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.list-square {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.list-number {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.list-roman {
+  list-style-type: lower-roman;
+  list-style-position: inside;
+}
+
+.list-alpha {
+  list-style-type: lower-alpha;
+  list-style-position: inside;
+}
+
+.list-emoji {
+  list-style: "⭐ ";
+  list-style-position: inside;
+}
+
+.list-img {
+  list-style-type: none;
+}
+
+.list-img img {
+  width: var(--size-19);
+  height: var(--size-19);
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: var(--size-9);
+}
