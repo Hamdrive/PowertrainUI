@@ -1,0 +1,38 @@
+.grid-container {
+  display: grid;
+  word-break: break-all;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-80-20 {
+  grid-template-columns: 80% 1fr;
+}
+
+.grid-70-30 {
+  grid-template-columns: 70% 1fr;
+}
+
+.grid-60-40 {
+  grid-template-columns: 60% 1fr;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-span-1 {
+    grid-column: span 1;
+  }
+
+  .grid-span-2 {
+    grid-column: span 2;
+  }
+
+  .grid-span-3 {
+    grid-column: span 3;
+  }
+}
