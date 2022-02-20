@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/slider.css" />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon.ico"
+      type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/0ae1aebe6f.js"
+      crossorigin="anonymous"></script>
+    <title>PowertrainUI | Slider</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header pos-st top-left-pos py-md">
+        <header class="max-width-1200 px-md dis-flex mx-auto">
+          <div class="logo">
+            <a href="../../index.html">PowertrainUI</a>
+          </div>
+          <button class="hamburger-menu"><i class="fas fa-bars"></i></button>
+          <nav class="navbar mobile-navbar flex-center flex-grow-1">
+            <button class="nav-close-btn">
+              <i class="fas fa-2x fa-times"></i>
+            </button>
+            <ul class="ml-2 menu h-100">
+              <li class="menu-list">
+                <a href="../../index.html" class="menu-item btn btn-md mx-1">
+                  Home
+                </a>
+              </li>
+              <li class="menu-list">
+                <a href="./alert.html" class="menu-item btn btn-md mx-1 active">
+                  Docs
+                </a>
+              </li>
+              <li class="menu-list">
+                <a
+                  href="https://github.com/Hamdrive"
+                  class="menu-item btn btn-md mx-1">
+                  Github
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <div class="py-md">
+        <main class="min-vh-85 mx-auto px-lg main">
+          <aside class="aside">
+            <nav class="aside-nav">
+              <ul class="px-sm">
+                <li class="mobile-menu dis-flex">
+                  Menu
+                  <div class="mobile-menu-arrow">
+                    <i class="fas fa-chevron-right"></i>
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./getstarted.html">Get Started</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./alert.html">Alert</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./avatar.html">Avatar</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./badge.html">Badge</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./button.html">Button</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./card.html">Card</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./grid.html">Grid</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./image.html">Image</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./input.html">Input</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./list.html">List</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./navigation.html">Navigation</a>
+                </li>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="#">Slider</a>
+                </li>
+                <li class="my-1">
+                  <a class="h4" href="./snackbar.html">Snackbar</a>
+                </li>
+                <li class="my-1 aside-item aside-active">
+                  <a class="h4" href="#">Typography</a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+          <section class="content-doc">
+            <section class="max-width-1200 mx-auto h-100">
+              <header class="main-section-header">
+                <h1>Slider</h1>
+              </header>
+              <section class="main-section">
+                <h2>Introduction</h2>
+                <p>
+                  With sliders, you are able to provide your users with another
+                  method of input.
+                  <br />
+                  Sliders can accept any values within the range specified, thus
+                  making them a great fit for E-commerce applications.
+                  <br />
+                </p>
+              </section>
+              <section class="main-section">
+                <h2>Simple slider with labels</h2>
+                <p>Use the class <code>.slider</code> to style the slider according to your color palette.</p>
+                <br />
+                <div class="example">
+                  <input
+                    type="range"
+                    min="0"
+                    max="10"
+                    step="1"
+                    value="3"
+                    list="tickmarks"
+                    class="slider" />
+                  <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                  </datalist>
+                </div>
+                <div class="code-snippet">
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253C%21--%2520Simple%2520slider%2520with%2520hashmarks%2520to%2520indicate%2520breakpoints%2520--%253E%250A%250A%253Cinput%250A%2520%2520type%253D%2522range%2522%250A%2520%2520min%253D%25220%2522%250A%2520%2520max%253D%252210%2522%250A%2520%2520step%253D%25221%2522%250A%2520%2520value%253D%25223%2522%250A%2520%2520list%253D%2522tickmarks%2522%250A%2520%2520class%253D%2522slider%2522%2520%252F%253E%250A%253Cdatalist%2520id%253D%2522tickmarks%2522%253E%250A%2520%2520%253Coption%2520value%253D%25220%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25221%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25222%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25223%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25224%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25225%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25226%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25227%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25228%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25229%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%252210%2522%253E%253C%252Foption%253E%250A%253C%252Fdatalist%253E%250A"
+                    style="
+                      min-height: 200px;
+                      border: 0;
+                      transform: scale(1);
+                      overflow: scroll;
+                    "
+                    sandbox="allow-scripts allow-same-origin"></iframe>
+                </div>
+              </section>
+            </section>
+          </section>
+        </main>
+      </div>
+      <div class="footer footer-doc py-md">
+        <footer
+          class="max-width-1200 grid grid-cols-2 gap-2 grid-ver-center mx-auto px-lg">
+          <div class="footer-info">
+            <div class="footer-social py-sm">Socials</div>
+            <ul class="footer-social-icons dis-flex gap-2 py-sm">
+              <li>
+                <a href="https://github.com/Hamdrive">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/itsHamhere">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/hamza-husein/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://peerlist.io/hamza">
+                  <i class="fas fa-parking"></i>
+                </a>
+              </li>
+            </ul>
+            <div class="footer-outro py-sm">
+              Designed with 💚 by
+              <strong>Hamza Husein</strong>
+            </div>
+          </div>
+          <div class="footer-brief">
+            <div class="py-sm">
+              Illustrations by
+              <u><a href="https://storyset.com">Storyset</a></u>
+            </div>
+            <div class="py-sm">Version 1.0.0</div>
+            <div class="py-sm">© PowertrainUI, 2022 All rights reserved.</div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="../../index.js"></script>
+    <script src="../../sidebar.js"></script>
+  </body>
+</html>
