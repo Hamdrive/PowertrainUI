@@ -1,0 +1,18 @@
+@import url("../../styles.css");
+@import url("../../stylesheets/navbar.css");
+@import url("../../stylesheets/footer.css");
+@import url("../../stylesheets/sidebar.css");
+@import url("./getstarted.css");
+@import url("../../components/slider/slider.css");
+
+.example {
+  width: 100%;
+  margin: var(--size-9) 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: var(--size-13);
+  border: 2px solid var(--secondary-color);
+  border-radius: var(--radius-extra-large);
+}

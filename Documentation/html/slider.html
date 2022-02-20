@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/getstarted.css" />
+    <link rel="stylesheet" href="../css/slider.css" />
     <link
       rel="shortcut icon"
       href="../../assets/favicon.ico"
@@ -17,7 +17,7 @@
     <script
       src="https://kit.fontawesome.com/0ae1aebe6f.js"
       crossorigin="anonymous"></script>
-    <title>PowerTrainUI | Get Started</title>
+    <title>PowertrainUI | Slider</title>
   </head>
   <body>
     <div class="wrapper">
@@ -65,8 +65,8 @@
                     <i class="fas fa-chevron-right"></i>
                   </div>
                 </li>
-                <li class="my-1 aside-item aside-active">
-                  <a class="h4" href="#">Get Started</a>
+                <li class="my-1 aside-item">
+                  <a class="h4" href="./getstarted.html">Get Started</a>
                 </li>
                 <li class="my-1 aside-item">
                   <a class="h4" href="./alert.html">Alert</a>
@@ -101,14 +101,14 @@
                 <li class="my-1 aside-item">
                   <a class="h4" href="./rating.html">Rating</a>
                 </li>
-                <li class="my-1 aside-item">
-                  <a class="h4" href="./slider.html">Slider</a>
+                <li class="my-1 aside-item aside-active">
+                  <a class="h4" href="#">Slider</a>
                 </li>
                 <li class="my-1 aside-item">
                   <a class="h4" href="./snackbar.html">Snackbar</a>
                 </li>
                 <li class="my-1 aside-item">
-                  <a class="h4" href="./typography.html">Typography</a>
+                  <a class="h4" href="#">Typography</a>
                 </li>
               </ul>
             </nav>
@@ -116,37 +116,54 @@
           <section class="content-doc">
             <section class="max-width-1200 mx-auto h-100">
               <header class="main-section-header">
-                <h1>Get started</h1>
+                <h1>Slider</h1>
               </header>
               <section class="main-section">
                 <h2>Introduction</h2>
                 <p>
-                  Thank you for choosing to use
-                  <strong>PowertrainUI</strong>
-                  as part of your next project!
+                  With sliders, you are able to provide your users with another
+                  method of input.
                   <br />
-                  We hope that our little library not only enhances your
-                  website, making it standout but also improves performance so
-                  that your users never have to wait at a loading screen!
+                  Sliders can accept any values within the range specified, thus
+                  making them a great fit for E-commerce applications.
+                  <br />
                 </p>
               </section>
               <section class="main-section">
-                <h2>Installation Guide</h2>
-                <p>
-                  Copy the below stylesheet
-                  <code>&lt;link&gt;</code>
-                  and place it as the first import in the
-                  <code>&lt;head&gt;</code>
-                  to ensure that our library styles get applied!
-                </p>
+                <h2>Simple slider with labels</h2>
+                <p>Use the class <code>.slider</code> to style the slider according to your color palette.</p>
+                <br />
+                <div class="example">
+                  <input
+                    type="range"
+                    min="0"
+                    max="10"
+                    step="1"
+                    value="3"
+                    list="tickmarks"
+                    class="slider" />
+                  <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                  </datalist>
+                </div>
                 <div class="code-snippet">
                   <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fpowertrain-ui.netlify.app%252Fstyles.css%2522%2520%252F%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=999&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253C%21--%2520Simple%2520slider%2520with%2520hashmarks%2520to%2520indicate%2520breakpoints%2520--%253E%250A%250A%253Cinput%250A%2520%2520type%253D%2522range%2522%250A%2520%2520min%253D%25220%2522%250A%2520%2520max%253D%252210%2522%250A%2520%2520step%253D%25221%2522%250A%2520%2520value%253D%25223%2522%250A%2520%2520list%253D%2522tickmarks%2522%250A%2520%2520class%253D%2522slider%2522%2520%252F%253E%250A%253Cdatalist%2520id%253D%2522tickmarks%2522%253E%250A%2520%2520%253Coption%2520value%253D%25220%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25221%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25222%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25223%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25224%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25225%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25226%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25227%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25228%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%25229%2522%253E%253C%252Foption%253E%250A%2520%2520%253Coption%2520value%253D%252210%2522%253E%253C%252Foption%253E%250A%253C%252Fdatalist%253E%250A"
                     style="
                       min-height: 200px;
                       border: 0;
                       transform: scale(1);
-                      overflow: hidden;
+                      overflow: scroll;
                     "
                     sandbox="allow-scripts allow-same-origin"></iframe>
                 </div>
