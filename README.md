@@ -218,6 +218,17 @@ Types:
 
 <hr />
 
+### Slider
+
+With sliders, you are able to provide your users with another method of input.
+<br />
+You can check out the simple slider [here](https://powertrain-ui.netlify.app/documentation/html/slider.html)
+
+Types:
+* Simple slider
+
+<hr />
+
 ### Snackbar
 
 Snackbars provide brief messages about various processes at the bottom of the screen.
