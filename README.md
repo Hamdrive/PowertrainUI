@@ -38,13 +38,15 @@ PowertrainUI comprises of the following components. Note that new components/fea
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/badge.html">Badge</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/button.html">Button</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/card.html">Card</a></li>
+  <li><a href="https://powertrain-ui.netlify.app/documentation/html/grid.html">Grid</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/image.html">Image</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/input.html">Input</a></li>
+  <li><a href="https://powertrain-ui.netlify.app/documentation/html/list.html">List</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/navigation.html">Navigation</a></li>
+  <li><a href="https://powertrain-ui.netlify.app/documentation/html/rating.html">Ratinng</a></li>
+  <li><a href="https://powertrain-ui.netlify.app/documentation/html/slider.html">Slider</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/snackbar.html">Snackbar</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/Typography.html">Typography</a></li>
-  
-
 </ul>
 
 ---
