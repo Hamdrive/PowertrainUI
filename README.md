@@ -204,6 +204,7 @@ You can check out the ready to go navigation [here](https://powertrain-ui.netlif
 
 Types:
 * Simple navigation
+* Simple navigation with Hamburger menu (responsive)
 
 <hr />
 
