@@ -42,7 +42,8 @@ PowertrainUI comprises of the following components. Note that new components/fea
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/image.html">Image</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/input.html">Input</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/list.html">List</a></li>
-  <li><a href="https://powertrain-ui.netlify.app/documentation/html/navigation.html">Navigation</a></li>
+  <li><a href="https://powertrain-ui-temp.netlify.app/documentation/html/modal.html">Modal (Temp)</a></li>
+  <li><a href="https://powertrain-ui-temp.netlify.app/documentation/html/navigation.html">Navigation (Temp)</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/rating.html">Rating</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/slider.html">Slider</a></li>
   <li><a href="https://powertrain-ui.netlify.app/documentation/html/snackbar.html">Snackbar</a></li>
@@ -196,11 +197,25 @@ Types:
 
 <hr />
 
-### Navigation
+
+### Modal (Temp)
+
+Modals allow websites to enhance specific content by popping over your regular content while disabling the rest of your webpage.
+This ensures that your user has undivided attention to the current content being displayed, while also providing multiple ways to interact as well.
+<br />
+You can check out the ready to go modals [here](https://powertrain-ui-temp.netlify.app/documentation/html/modal.html)
+
+Types:
+* Basic Modal
+* Confirmation Modal
+
+<hr />
+
+### Navigation (Temp)
 
 Navigation helps users of a website to easily access sections of a webpage or access completely different websites.
 <br />
-You can check out the ready to go navigation [here](https://powertrain-ui.netlify.app/documentation/html/navigation.html)
+You can check out the ready to go navigations [here](https://powertrain-ui-temp.netlify.app/documentation/html/navigation.html)
 
 Types:
 * Simple navigation
