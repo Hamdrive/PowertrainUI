@@ -5,13 +5,11 @@ const close_sidemenu = document.getElementsByClassName(
 const sidemenu = document.getElementsByClassName("mobile-sidebar")[0];
 
 hamburger_mobile.addEventListener("click", () => {
-  console.log("click");
   sidemenu.style.width = "50%";
-  sidemenu.style.overflow = "auto"
+  sidemenu.style.overflow = "auto";
 });
 
 close_sidemenu.addEventListener("click", () => {
-  console.log("click");
   sidemenu.style.width = "0";
-  sidemenu.style.overflow = "hidden"
+  sidemenu.style.overflow = "hidden";
 });
