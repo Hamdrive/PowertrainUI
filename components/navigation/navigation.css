@@ -1,8 +1,7 @@
-.header {
+.header-basic {
   width: 100%;
   position: sticky;
   background-color: var(--primary-light-color);
-  z-index: 9999;
 }
 
 .nav-logo {
@@ -10,7 +9,6 @@
   font-size: var(--size-11);
   color: white;
   margin: auto 0;
-
 }
 
 .hamburger {
@@ -84,10 +82,51 @@
   left: 0;
 }
 
+.mobile-sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  margin-left: 100%;
+  transition: 0.1s width linear;
+  overflow: hidden;
+}
 
+.header-mobile {
+  width: 100%;
+  height: 4.5rem;
+  position: static;
+  background-color: var(--primary-light-color);
+}
+
+.mobile-sidebar-close-btn {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: var(--size-17);
+  height: var(--size-17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.mobile-navigation {
+  height: 100%;
+  flex-grow: 1;
+}
+
+.mobile-navigation .ecom-nav-cta {
+  width: 100%;
+  display: inline-block;
+}
 
 @media screen and (max-width: 1024px) {
-  .search-input{
+  .search-input {
     display: none;
   }
 
@@ -95,11 +134,11 @@
     font-size: var(--size-13);
     color: var(--color-white);
   }
-  
 }
 
 @media screen and (min-width: 769px) {
-  .hamburger, .nav-list-close-btn {
+  .hamburger,
+  .nav-list-close-btn {
     display: none;
   }
 

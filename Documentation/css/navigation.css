@@ -5,7 +5,8 @@
 @import url("./getstarted.css");
 @import url("../../components/navigation/navigation.css");
 
-.example {
+
+.example, .example-hamburger {
   width: 100%;
   margin: 1rem 0;
   display: flex;
@@ -16,4 +17,9 @@
   padding: var(--size-5);
   border: 2px solid var(--secondary-color);
   border-radius: 10px;
+}
+
+.example-hamburger{
+  height: 25rem;
+  position: relative;
 }
